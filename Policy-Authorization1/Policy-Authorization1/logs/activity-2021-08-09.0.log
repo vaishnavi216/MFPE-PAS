@@ -1,0 +1,1043 @@
+2021-08-09_13-37-18 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - Starting AuthorizationMicroserviceApplication using Java 16.0.1 on SUGU with PID 75456 (E:\CTS-INTERN\software\ECLIPSE\sat-proj\Policy-Authorization1\target\classes started by Suganth in E:\CTS-INTERN\software\ECLIPSE\sat-proj\Policy-Authorization1)
+2021-08-09_13-37-18 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-09_13-37-18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-09_13-37-18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-09_13-37-18 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-09_13-37-18 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 84 ms. Found 1 JPA repository interfaces.
+2021-08-09_13-37-18 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=09dd6329-0d10-3766-8e9b-776e374dbfcf
+2021-08-09_13-37-18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2021-08-09_13-37-18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2021-08-09_13-37-18 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-09_13-37-18 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-09_13-37-18 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2021-08-09_13-37-18 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3737 ms
+2021-08-09_13-37-18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-08-09_13-37-18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-08-09_13-37-18 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:testdb'
+2021-08-09_13-37-18 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-09_13-37-18 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-08-09_13-37-18 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-09_13-37-18 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-09_13-37-18 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-09_13-37-18 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09_13-37-18 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-08-09_13-37-18 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-09_13-37-18 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@142e524f, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a666ec9, org.springframework.security.web.header.HeaderWriterFilter@23d79c8f, org.springframework.security.web.authentication.logout.LogoutFilter@7c589e4b, com.cts.authorization.config.JwtRequestFilter@66c62e5f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@48119c43, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e1abb23, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@292c48bf, org.springframework.security.web.session.SessionManagementFilter@c60da8a, org.springframework.security.web.access.ExceptionTranslationFilter@1efc464d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@91b9f90]
+2021-08-09_13-37-18 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-09_13-37-18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8400"]
+2021-08-09_13-37-18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8400 (http) with context path '/auth'
+2021-08-09_13-37-18 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-09_13-37-18 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-09_13-37-18 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-09_13-37-18 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - Started AuthorizationMicroserviceApplication in 10.893 seconds (JVM running for 13.395)
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTg4NzAsImlhdCI6MTYyODQ5NzA3MH0.a96ADoPjCQyAUk7BP2KNqW7nrOaQL_V7fKI-xJqtLKv5UTKfeyA3vnWaH1C6FiS0wZ8XwsxN78Ki1xfXNnznjw
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTg4NzAsImlhdCI6MTYyODQ5NzA3MH0.a96ADoPjCQyAUk7BP2KNqW7nrOaQL_V7fKI-xJqtLKv5UTKfeyA3vnWaH1C6FiS0wZ8XwsxN78Ki1xfXNnznjw
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0MDIxOTcsImlhdCI6MTYyODQwMDM5N30.EceJgLDdUeLt_xbwxOBdNyyE7xOUCqkmz3s-YcU_pc6d6z22PwfZTMjnbGhVUS0vUuarFqvj335Y1t3A0C84Rw
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0MDIxOTcsImlhdCI6MTYyODQwMDM5N30.EceJgLDdUeLt_xbwxOBdNyyE7xOUCqkmz3s-YcU_pc6d6z22PwfZTMjnbGhVUS0vUuarFqvj335Y1t3A0C84Rw
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTg4NzAsImlhdCI6MTYyODQ5NzA3MH0.a96ADoPjCQyAUk7BP2KNqW7nrOaQL_V7fKI-xJqtLKv5UTKfeyA3vnWaH1C6FiS0wZ8XwsxN78Ki1xfXNnznjw
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTg4NzAsImlhdCI6MTYyODQ5NzA3MH0.a96ADoPjCQyAUk7BP2KNqW7nrOaQL_V7fKI-xJqtLKv5UTKfeyA3vnWaH1C6FiS0wZ8XwsxN78Ki1xfXNnznjw
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTk0NDUsImlhdCI6MTYyODQ5NzY0NX0.oT9RaS5J2gNDwhBbohurfmcX8Fg6RhG-LHtMa9_zgjGbIH9dBM70oeZcqk8xCDqp3OJQlwdDKk0CBH37lGcNeQ
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTk0NDUsImlhdCI6MTYyODQ5NzY0NX0.oT9RaS5J2gNDwhBbohurfmcX8Fg6RhG-LHtMa9_zgjGbIH9dBM70oeZcqk8xCDqp3OJQlwdDKk0CBH37lGcNeQ
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTk0NDUsImlhdCI6MTYyODQ5NzY0NX0.oT9RaS5J2gNDwhBbohurfmcX8Fg6RhG-LHtMa9_zgjGbIH9dBM70oeZcqk8xCDqp3OJQlwdDKk0CBH37lGcNeQ
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTk0NDUsImlhdCI6MTYyODQ5NzY0NX0.oT9RaS5J2gNDwhBbohurfmcX8Fg6RhG-LHtMa9_zgjGbIH9dBM70oeZcqk8xCDqp3OJQlwdDKk0CBH37lGcNeQ
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTk0NDUsImlhdCI6MTYyODQ5NzY0NX0.oT9RaS5J2gNDwhBbohurfmcX8Fg6RhG-LHtMa9_zgjGbIH9dBM70oeZcqk8xCDqp3OJQlwdDKk0CBH37lGcNeQ
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTk0NDUsImlhdCI6MTYyODQ5NzY0NX0.oT9RaS5J2gNDwhBbohurfmcX8Fg6RhG-LHtMa9_zgjGbIH9dBM70oeZcqk8xCDqp3OJQlwdDKk0CBH37lGcNeQ
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTk0NDUsImlhdCI6MTYyODQ5NzY0NX0.oT9RaS5J2gNDwhBbohurfmcX8Fg6RhG-LHtMa9_zgjGbIH9dBM70oeZcqk8xCDqp3OJQlwdDKk0CBH37lGcNeQ
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTk0NDUsImlhdCI6MTYyODQ5NzY0NX0.oT9RaS5J2gNDwhBbohurfmcX8Fg6RhG-LHtMa9_zgjGbIH9dBM70oeZcqk8xCDqp3OJQlwdDKk0CBH37lGcNeQ
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTk1MTMsImlhdCI6MTYyODQ5NzcxM30.FHC0y5A4ori4EnavGatBVv44UorOYCQa4-ur5tAzRVrXIWvvykvZCOpRk3_jPc0pqqnC2HCzFRS87zZ-UCA6hg
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTk1MTMsImlhdCI6MTYyODQ5NzcxM30.FHC0y5A4ori4EnavGatBVv44UorOYCQa4-ur5tAzRVrXIWvvykvZCOpRk3_jPc0pqqnC2HCzFRS87zZ-UCA6hg
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTk1MTMsImlhdCI6MTYyODQ5NzcxM30.FHC0y5A4ori4EnavGatBVv44UorOYCQa4-ur5tAzRVrXIWvvykvZCOpRk3_jPc0pqqnC2HCzFRS87zZ-UCA6hg
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTk1MTMsImlhdCI6MTYyODQ5NzcxM30.FHC0y5A4ori4EnavGatBVv44UorOYCQa4-ur5tAzRVrXIWvvykvZCOpRk3_jPc0pqqnC2HCzFRS87zZ-UCA6hg
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTk4MDksImlhdCI6MTYyODQ5ODAwOX0.SIq2_O44hCMNJ7eNe98zukIgcb5HLsx8nGqF_P87851FmXGS5SnDuvaZ1PGakWb1a_d0w5Ohywx2ZGwJdmbeeA
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTk4MDksImlhdCI6MTYyODQ5ODAwOX0.SIq2_O44hCMNJ7eNe98zukIgcb5HLsx8nGqF_P87851FmXGS5SnDuvaZ1PGakWb1a_d0w5Ohywx2ZGwJdmbeeA
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTk4MDksImlhdCI6MTYyODQ5ODAwOX0.SIq2_O44hCMNJ7eNe98zukIgcb5HLsx8nGqF_P87851FmXGS5SnDuvaZ1PGakWb1a_d0w5Ohywx2ZGwJdmbeeA
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTk4MDksImlhdCI6MTYyODQ5ODAwOX0.SIq2_O44hCMNJ7eNe98zukIgcb5HLsx8nGqF_P87851FmXGS5SnDuvaZ1PGakWb1a_d0w5Ohywx2ZGwJdmbeeA
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDAzNjksImlhdCI6MTYyODQ5ODU2OX0.8CAR54lSi0IUH5ciaRSMyLcMrKj7TC5Av6PLMB5QqSzmOYj-F99Q8m-PS5OJk8RPX7cd00EDztRVtrTqeQZUKQ
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDAzNjksImlhdCI6MTYyODQ5ODU2OX0.8CAR54lSi0IUH5ciaRSMyLcMrKj7TC5Av6PLMB5QqSzmOYj-F99Q8m-PS5OJk8RPX7cd00EDztRVtrTqeQZUKQ
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDAzNjksImlhdCI6MTYyODQ5ODU2OX0.8CAR54lSi0IUH5ciaRSMyLcMrKj7TC5Av6PLMB5QqSzmOYj-F99Q8m-PS5OJk8RPX7cd00EDztRVtrTqeQZUKQ
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDAzNjksImlhdCI6MTYyODQ5ODU2OX0.8CAR54lSi0IUH5ciaRSMyLcMrKj7TC5Av6PLMB5QqSzmOYj-F99Q8m-PS5OJk8RPX7cd00EDztRVtrTqeQZUKQ
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDA4NjcsImlhdCI6MTYyODQ5OTA2N30.vcH-l9d2DdwxiwN5bbfFPI8eBdqN0dTzOVcbMdg2xAOGKL96t8rvwJZK2jNqo8xwaGocRsbTeOD8E5MLzbSEJw
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDA4NjcsImlhdCI6MTYyODQ5OTA2N30.vcH-l9d2DdwxiwN5bbfFPI8eBdqN0dTzOVcbMdg2xAOGKL96t8rvwJZK2jNqo8xwaGocRsbTeOD8E5MLzbSEJw
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDA4NjcsImlhdCI6MTYyODQ5OTA2N30.vcH-l9d2DdwxiwN5bbfFPI8eBdqN0dTzOVcbMdg2xAOGKL96t8rvwJZK2jNqo8xwaGocRsbTeOD8E5MLzbSEJw
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDA4NjcsImlhdCI6MTYyODQ5OTA2N30.vcH-l9d2DdwxiwN5bbfFPI8eBdqN0dTzOVcbMdg2xAOGKL96t8rvwJZK2jNqo8xwaGocRsbTeOD8E5MLzbSEJw
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDExMzQsImlhdCI6MTYyODQ5OTMzNH0.O-WX3cHMaln32b9kjDrOjQpZVGdQRDyZmoOzyeQyQ51gYwAFWXdjPXe3L9dP1Qjw2zLwSh0PBgvl8M4WS4k9fA
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDExMzQsImlhdCI6MTYyODQ5OTMzNH0.O-WX3cHMaln32b9kjDrOjQpZVGdQRDyZmoOzyeQyQ51gYwAFWXdjPXe3L9dP1Qjw2zLwSh0PBgvl8M4WS4k9fA
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDExMzQsImlhdCI6MTYyODQ5OTMzNH0.O-WX3cHMaln32b9kjDrOjQpZVGdQRDyZmoOzyeQyQ51gYwAFWXdjPXe3L9dP1Qjw2zLwSh0PBgvl8M4WS4k9fA
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDExMzQsImlhdCI6MTYyODQ5OTMzNH0.O-WX3cHMaln32b9kjDrOjQpZVGdQRDyZmoOzyeQyQ51gYwAFWXdjPXe3L9dP1Qjw2zLwSh0PBgvl8M4WS4k9fA
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0MDA0NjUsImlhdCI6MTYyODM5ODY2NX0.jSesgxnWzvAJXNtWjia07Dh_AQkxqmaWYB-xbtPgnomruypRQGlExmy6QRO90UhVJu6U5C9wmv3tdNusCxzONg
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0MDA0NjUsImlhdCI6MTYyODM5ODY2NX0.jSesgxnWzvAJXNtWjia07Dh_AQkxqmaWYB-xbtPgnomruypRQGlExmy6QRO90UhVJu6U5C9wmv3tdNusCxzONg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTg4NzAsImlhdCI6MTYyODQ5NzA3MH0.a96ADoPjCQyAUk7BP2KNqW7nrOaQL_V7fKI-xJqtLKv5UTKfeyA3vnWaH1C6FiS0wZ8XwsxN78Ki1xfXNnznjw
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTg4NzAsImlhdCI6MTYyODQ5NzA3MH0.a96ADoPjCQyAUk7BP2KNqW7nrOaQL_V7fKI-xJqtLKv5UTKfeyA3vnWaH1C6FiS0wZ8XwsxN78Ki1xfXNnznjw
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTg4NzAsImlhdCI6MTYyODQ5NzA3MH0.a96ADoPjCQyAUk7BP2KNqW7nrOaQL_V7fKI-xJqtLKv5UTKfeyA3vnWaH1C6FiS0wZ8XwsxN78Ki1xfXNnznjw
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTg4NzAsImlhdCI6MTYyODQ5NzA3MH0.a96ADoPjCQyAUk7BP2KNqW7nrOaQL_V7fKI-xJqtLKv5UTKfeyA3vnWaH1C6FiS0wZ8XwsxN78Ki1xfXNnznjw
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0MDA0NjUsImlhdCI6MTYyODM5ODY2NX0.jSesgxnWzvAJXNtWjia07Dh_AQkxqmaWYB-xbtPgnomruypRQGlExmy6QRO90UhVJu6U5C9wmv3tdNusCxzONg
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0MDA0NjUsImlhdCI6MTYyODM5ODY2NX0.jSesgxnWzvAJXNtWjia07Dh_AQkxqmaWYB-xbtPgnomruypRQGlExmy6QRO90UhVJu6U5C9wmv3tdNusCxzONg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0MDA0NjUsImlhdCI6MTYyODM5ODY2NX0.jSesgxnWzvAJXNtWjia07Dh_AQkxqmaWYB-xbtPgnomruypRQGlExmy6QRO90UhVJu6U5C9wmv3tdNusCxzONg
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0MDA0NjUsImlhdCI6MTYyODM5ODY2NX0.jSesgxnWzvAJXNtWjia07Dh_AQkxqmaWYB-xbtPgnomruypRQGlExmy6QRO90UhVJu6U5C9wmv3tdNusCxzONg
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDMyMTAsImlhdCI6MTYyODUwMTQxMH0.XlcguhOn5XWy7FFEE6rqdjCky-Kaqxt3VkF0pu6t9PVGxvIBNpfJdyeebPw2P_XzxbDVy-9vLy_3SgBjcd70-g
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDMyMTAsImlhdCI6MTYyODUwMTQxMH0.XlcguhOn5XWy7FFEE6rqdjCky-Kaqxt3VkF0pu6t9PVGxvIBNpfJdyeebPw2P_XzxbDVy-9vLy_3SgBjcd70-g
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDMyMTAsImlhdCI6MTYyODUwMTQxMH0.XlcguhOn5XWy7FFEE6rqdjCky-Kaqxt3VkF0pu6t9PVGxvIBNpfJdyeebPw2P_XzxbDVy-9vLy_3SgBjcd70-g
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDMyMTAsImlhdCI6MTYyODUwMTQxMH0.XlcguhOn5XWy7FFEE6rqdjCky-Kaqxt3VkF0pu6t9PVGxvIBNpfJdyeebPw2P_XzxbDVy-9vLy_3SgBjcd70-g
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDMyMTAsImlhdCI6MTYyODUwMTQxMH0.XlcguhOn5XWy7FFEE6rqdjCky-Kaqxt3VkF0pu6t9PVGxvIBNpfJdyeebPw2P_XzxbDVy-9vLy_3SgBjcd70-g
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDMyMTAsImlhdCI6MTYyODUwMTQxMH0.XlcguhOn5XWy7FFEE6rqdjCky-Kaqxt3VkF0pu6t9PVGxvIBNpfJdyeebPw2P_XzxbDVy-9vLy_3SgBjcd70-g
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDMyMTAsImlhdCI6MTYyODUwMTQxMH0.XlcguhOn5XWy7FFEE6rqdjCky-Kaqxt3VkF0pu6t9PVGxvIBNpfJdyeebPw2P_XzxbDVy-9vLy_3SgBjcd70-g
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDMyMTAsImlhdCI6MTYyODUwMTQxMH0.XlcguhOn5XWy7FFEE6rqdjCky-Kaqxt3VkF0pu6t9PVGxvIBNpfJdyeebPw2P_XzxbDVy-9vLy_3SgBjcd70-g
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDMyMTAsImlhdCI6MTYyODUwMTQxMH0.XlcguhOn5XWy7FFEE6rqdjCky-Kaqxt3VkF0pu6t9PVGxvIBNpfJdyeebPw2P_XzxbDVy-9vLy_3SgBjcd70-g
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDMyMTAsImlhdCI6MTYyODUwMTQxMH0.XlcguhOn5XWy7FFEE6rqdjCky-Kaqxt3VkF0pu6t9PVGxvIBNpfJdyeebPw2P_XzxbDVy-9vLy_3SgBjcd70-g
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDMyMTAsImlhdCI6MTYyODUwMTQxMH0.XlcguhOn5XWy7FFEE6rqdjCky-Kaqxt3VkF0pu6t9PVGxvIBNpfJdyeebPw2P_XzxbDVy-9vLy_3SgBjcd70-g
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDMyMTAsImlhdCI6MTYyODUwMTQxMH0.XlcguhOn5XWy7FFEE6rqdjCky-Kaqxt3VkF0pu6t9PVGxvIBNpfJdyeebPw2P_XzxbDVy-9vLy_3SgBjcd70-g
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDQ2MzMsImlhdCI6MTYyODUwMjgzM30.dykvpNGig9luqfgG2dNzGSPpVKbx55bKL6zpuNumUzYdBjS7RsrB6QN71g73sB4p0m83AmSHxqTtYFcBULv0eg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDY2NzksImlhdCI6MTYyODUwNDg3OX0.Mg_zR2RJkqNjkMT8WI3ZzhRpit89QB7CPuXYD9F9hzHRHgyohm5yAHppLBO1gFf1Q8WovnmtmOkDCYCcKBnTIQ
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MDEzMDcsImlhdCI6MTYyODQ5OTUwN30.BHM3lO1kgafkVUg6vmSi2WTjzusRK-jXPgJ8AzEQQ5N0_odeC4pk63KNgyps3Hw7Ols7-93aGxmWc89ybQecjQ
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_13-37-18 [RMI TCP Connection(231)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-08-09_13-37-18 [RMI TCP Connection(231)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-09_13-37-18 [RMI TCP Connection(231)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09_13-37-18 [RMI TCP Connection(231)-127.0.0.1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-08-09_13-37-18 [RMI TCP Connection(231)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-08-09_13-37-18 [RMI TCP Connection(231)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-08-09_18-47-59 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - Starting AuthorizationMicroserviceApplication using Java 16.0.1 on SUGU with PID 74216 (E:\CTS-INTERN\software\ECLIPSE\sat-proj\Policy-Authorization1\target\classes started by Suganth in E:\CTS-INTERN\software\ECLIPSE\sat-proj\Policy-Authorization1)
+2021-08-09_18-47-59 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-09_18-47-59 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-09_18-47-59 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-09_18-47-59 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-09_18-47-59 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 94 ms. Found 1 JPA repository interfaces.
+2021-08-09_18-47-59 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=09dd6329-0d10-3766-8e9b-776e374dbfcf
+2021-08-09_18-47-59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2021-08-09_18-47-59 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2021-08-09_18-47-59 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-09_18-47-59 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-09_18-47-59 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2021-08-09_18-47-59 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4753 ms
+2021-08-09_18-47-59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-08-09_18-47-59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-08-09_18-47-59 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:testdb'
+2021-08-09_18-47-59 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-09_18-47-59 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-08-09_18-47-59 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-09_18-47-59 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-09_18-47-59 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-09_18-47-59 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09_18-47-59 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-08-09_18-47-59 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-09_18-47-59 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28319910, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b37418f, org.springframework.security.web.header.HeaderWriterFilter@451dfdac, org.springframework.security.web.authentication.logout.LogoutFilter@23eaf67c, com.cts.authorization.config.JwtRequestFilter@25c4f80d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@730da122, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f1633dd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@58be1f11, org.springframework.security.web.session.SessionManagementFilter@3b8df795, org.springframework.security.web.access.ExceptionTranslationFilter@69c6703d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6fa5f775]
+2021-08-09_18-47-59 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-09_18-47-59 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8400"]
+2021-08-09_18-47-59 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8400 (http) with context path '/auth'
+2021-08-09_18-47-59 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-09_18-47-59 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-09_18-47-59 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-09_18-47-59 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - Started AuthorizationMicroserviceApplication in 12.818 seconds (JVM running for 24.639)
+2021-08-09_18-47-59 [http-nio-8400-exec-1] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-09_18-47-59 [http-nio-8400-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-09_18-47-59 [http-nio-8400-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTg4NzAsImlhdCI6MTYyODQ5NzA3MH0.a96ADoPjCQyAUk7BP2KNqW7nrOaQL_V7fKI-xJqtLKv5UTKfeyA3vnWaH1C6FiS0wZ8XwsxN78Ki1xfXNnznjw
+2021-08-09_18-47-59 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTg4NzAsImlhdCI6MTYyODQ5NzA3MH0.a96ADoPjCQyAUk7BP2KNqW7nrOaQL_V7fKI-xJqtLKv5UTKfeyA3vnWaH1C6FiS0wZ8XwsxN78Ki1xfXNnznjw
+2021-08-09_18-47-59 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_18-47-59 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_18-47-59 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcwNzUsImlhdCI6MTYyODUxNTI3NX0.Ppx5OvFkuJyZZ34yVZxJ0-uk27TVcj-54zZrVH34_-MD6tvjoZ1CdNQR9GKzZnIi_6ge36d_8IruJzKnutMxpA
+2021-08-09_18-47-59 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcwNzUsImlhdCI6MTYyODUxNTI3NX0.Ppx5OvFkuJyZZ34yVZxJ0-uk27TVcj-54zZrVH34_-MD6tvjoZ1CdNQR9GKzZnIi_6ge36d_8IruJzKnutMxpA
+2021-08-09_18-47-59 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcwNzUsImlhdCI6MTYyODUxNTI3NX0.Ppx5OvFkuJyZZ34yVZxJ0-uk27TVcj-54zZrVH34_-MD6tvjoZ1CdNQR9GKzZnIi_6ge36d_8IruJzKnutMxpA
+2021-08-09_18-47-59 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcwNzUsImlhdCI6MTYyODUxNTI3NX0.Ppx5OvFkuJyZZ34yVZxJ0-uk27TVcj-54zZrVH34_-MD6tvjoZ1CdNQR9GKzZnIi_6ge36d_8IruJzKnutMxpA
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTY5NzAsImlhdCI6MTYyODUxNTE3MH0.zB8tYYFwJ3aodkIRyCvsneM3pKBHvQsNUXM3yQVeUMOIzKphDLhKF7b_-Y8hQ2EK7ciLc21e7zdjRciFnhCBVg
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTY5NzAsImlhdCI6MTYyODUxNTE3MH0.zB8tYYFwJ3aodkIRyCvsneM3pKBHvQsNUXM3yQVeUMOIzKphDLhKF7b_-Y8hQ2EK7ciLc21e7zdjRciFnhCBVg
+2021-08-09_18-47-59 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTY5NzAsImlhdCI6MTYyODUxNTE3MH0.zB8tYYFwJ3aodkIRyCvsneM3pKBHvQsNUXM3yQVeUMOIzKphDLhKF7b_-Y8hQ2EK7ciLc21e7zdjRciFnhCBVg
+2021-08-09_18-47-59 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTY5NzAsImlhdCI6MTYyODUxNTE3MH0.zB8tYYFwJ3aodkIRyCvsneM3pKBHvQsNUXM3yQVeUMOIzKphDLhKF7b_-Y8hQ2EK7ciLc21e7zdjRciFnhCBVg
+2021-08-09_18-47-59 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTY5NzAsImlhdCI6MTYyODUxNTE3MH0.zB8tYYFwJ3aodkIRyCvsneM3pKBHvQsNUXM3yQVeUMOIzKphDLhKF7b_-Y8hQ2EK7ciLc21e7zdjRciFnhCBVg
+2021-08-09_18-47-59 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTY5NzAsImlhdCI6MTYyODUxNTE3MH0.zB8tYYFwJ3aodkIRyCvsneM3pKBHvQsNUXM3yQVeUMOIzKphDLhKF7b_-Y8hQ2EK7ciLc21e7zdjRciFnhCBVg
+2021-08-09_18-47-59 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTY5NzAsImlhdCI6MTYyODUxNTE3MH0.zB8tYYFwJ3aodkIRyCvsneM3pKBHvQsNUXM3yQVeUMOIzKphDLhKF7b_-Y8hQ2EK7ciLc21e7zdjRciFnhCBVg
+2021-08-09_18-47-59 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTY5NzAsImlhdCI6MTYyODUxNTE3MH0.zB8tYYFwJ3aodkIRyCvsneM3pKBHvQsNUXM3yQVeUMOIzKphDLhKF7b_-Y8hQ2EK7ciLc21e7zdjRciFnhCBVg
+2021-08-09_18-47-59 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_18-47-59 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_18-47-59 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcxNjcsImlhdCI6MTYyODUxNTM2N30.46pJUOYs1aVYIyuA0dOcqEC2pmPIZTUtACGz7lV7Eb5lo8UKGVVNiRdtTseDvcMzC_Fpm-ieTzTaR_j0VZtkig
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcxNjcsImlhdCI6MTYyODUxNTM2N30.46pJUOYs1aVYIyuA0dOcqEC2pmPIZTUtACGz7lV7Eb5lo8UKGVVNiRdtTseDvcMzC_Fpm-ieTzTaR_j0VZtkig
+2021-08-09_18-47-59 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcxNjcsImlhdCI6MTYyODUxNTM2N30.46pJUOYs1aVYIyuA0dOcqEC2pmPIZTUtACGz7lV7Eb5lo8UKGVVNiRdtTseDvcMzC_Fpm-ieTzTaR_j0VZtkig
+2021-08-09_18-47-59 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcxNjcsImlhdCI6MTYyODUxNTM2N30.46pJUOYs1aVYIyuA0dOcqEC2pmPIZTUtACGz7lV7Eb5lo8UKGVVNiRdtTseDvcMzC_Fpm-ieTzTaR_j0VZtkig
+2021-08-09_18-47-59 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTg4NzAsImlhdCI6MTYyODQ5NzA3MH0.a96ADoPjCQyAUk7BP2KNqW7nrOaQL_V7fKI-xJqtLKv5UTKfeyA3vnWaH1C6FiS0wZ8XwsxN78Ki1xfXNnznjw
+2021-08-09_18-47-59 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg0OTg4NzAsImlhdCI6MTYyODQ5NzA3MH0.a96ADoPjCQyAUk7BP2KNqW7nrOaQL_V7fKI-xJqtLKv5UTKfeyA3vnWaH1C6FiS0wZ8XwsxN78Ki1xfXNnznjw
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcwNzUsImlhdCI6MTYyODUxNTI3NX0.Ppx5OvFkuJyZZ34yVZxJ0-uk27TVcj-54zZrVH34_-MD6tvjoZ1CdNQR9GKzZnIi_6ge36d_8IruJzKnutMxpA
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcwNzUsImlhdCI6MTYyODUxNTI3NX0.Ppx5OvFkuJyZZ34yVZxJ0-uk27TVcj-54zZrVH34_-MD6tvjoZ1CdNQR9GKzZnIi_6ge36d_8IruJzKnutMxpA
+2021-08-09_18-47-59 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcxNjcsImlhdCI6MTYyODUxNTM2N30.46pJUOYs1aVYIyuA0dOcqEC2pmPIZTUtACGz7lV7Eb5lo8UKGVVNiRdtTseDvcMzC_Fpm-ieTzTaR_j0VZtkig
+2021-08-09_18-47-59 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcxNjcsImlhdCI6MTYyODUxNTM2N30.46pJUOYs1aVYIyuA0dOcqEC2pmPIZTUtACGz7lV7Eb5lo8UKGVVNiRdtTseDvcMzC_Fpm-ieTzTaR_j0VZtkig
+2021-08-09_18-47-59 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcxNjcsImlhdCI6MTYyODUxNTM2N30.46pJUOYs1aVYIyuA0dOcqEC2pmPIZTUtACGz7lV7Eb5lo8UKGVVNiRdtTseDvcMzC_Fpm-ieTzTaR_j0VZtkig
+2021-08-09_18-47-59 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcxNjcsImlhdCI6MTYyODUxNTM2N30.46pJUOYs1aVYIyuA0dOcqEC2pmPIZTUtACGz7lV7Eb5lo8UKGVVNiRdtTseDvcMzC_Fpm-ieTzTaR_j0VZtkig
+2021-08-09_18-47-59 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_18-47-59 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_18-47-59 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcyNzAsImlhdCI6MTYyODUxNTQ3MH0.KOLXTE3LIa1vsMr1A4tOnNx65v4kCGCgkRrULBE66z9mCNe9Bxki3ATKUM7oNTDtZqgvV2hZ1Y9ZsBTsn7ASIA
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcyNzAsImlhdCI6MTYyODUxNTQ3MH0.KOLXTE3LIa1vsMr1A4tOnNx65v4kCGCgkRrULBE66z9mCNe9Bxki3ATKUM7oNTDtZqgvV2hZ1Y9ZsBTsn7ASIA
+2021-08-09_18-47-59 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcyNzAsImlhdCI6MTYyODUxNTQ3MH0.KOLXTE3LIa1vsMr1A4tOnNx65v4kCGCgkRrULBE66z9mCNe9Bxki3ATKUM7oNTDtZqgvV2hZ1Y9ZsBTsn7ASIA
+2021-08-09_18-47-59 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcyNzAsImlhdCI6MTYyODUxNTQ3MH0.KOLXTE3LIa1vsMr1A4tOnNx65v4kCGCgkRrULBE66z9mCNe9Bxki3ATKUM7oNTDtZqgvV2hZ1Y9ZsBTsn7ASIA
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTc0MjMsImlhdCI6MTYyODUxNTYyM30.8DmoQe6BRsvUMUJCSyMgNNt-MlA7JQskG2cyOjGLEm7EKD1aGwwTc444uhML46TDI0iBzu8fe-Mt5-v9L2q2Lg
+2021-08-09_18-47-59 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTc0MjMsImlhdCI6MTYyODUxNTYyM30.8DmoQe6BRsvUMUJCSyMgNNt-MlA7JQskG2cyOjGLEm7EKD1aGwwTc444uhML46TDI0iBzu8fe-Mt5-v9L2q2Lg
+2021-08-09_18-47-59 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTc0MjMsImlhdCI6MTYyODUxNTYyM30.8DmoQe6BRsvUMUJCSyMgNNt-MlA7JQskG2cyOjGLEm7EKD1aGwwTc444uhML46TDI0iBzu8fe-Mt5-v9L2q2Lg
+2021-08-09_18-47-59 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTc0MjMsImlhdCI6MTYyODUxNTYyM30.8DmoQe6BRsvUMUJCSyMgNNt-MlA7JQskG2cyOjGLEm7EKD1aGwwTc444uhML46TDI0iBzu8fe-Mt5-v9L2q2Lg
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTc1NTksImlhdCI6MTYyODUxNTc1OX0.4yCDjrkFZtC5FKyjrrD2tulTccdd3sz_QgFb-nZbYsIslDsHNBfSg_O-sZD365hcmlC3YGfSpP_zbKgwvYZ3KA
+2021-08-09_18-47-59 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTc1NTksImlhdCI6MTYyODUxNTc1OX0.4yCDjrkFZtC5FKyjrrD2tulTccdd3sz_QgFb-nZbYsIslDsHNBfSg_O-sZD365hcmlC3YGfSpP_zbKgwvYZ3KA
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_18-47-59 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_18-47-59 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTk3NDgsImlhdCI6MTYyODUxNzk0OH0.LoSc6EsQ15p1gWIb7MfWd1EaVR48F9Nz9-bjweIZ62pJkZwPin_d1yTmQuX4iPbfun0pN_Yvqv7fimhSwoD4IA
+2021-08-09_18-47-59 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTk3NDgsImlhdCI6MTYyODUxNzk0OH0.LoSc6EsQ15p1gWIb7MfWd1EaVR48F9Nz9-bjweIZ62pJkZwPin_d1yTmQuX4iPbfun0pN_Yvqv7fimhSwoD4IA
+2021-08-09_18-47-59 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-6] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTk3NDgsImlhdCI6MTYyODUxNzk0OH0.LoSc6EsQ15p1gWIb7MfWd1EaVR48F9Nz9-bjweIZ62pJkZwPin_d1yTmQuX4iPbfun0pN_Yvqv7fimhSwoD4IA
+2021-08-09_18-47-59 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTk3NDgsImlhdCI6MTYyODUxNzk0OH0.LoSc6EsQ15p1gWIb7MfWd1EaVR48F9Nz9-bjweIZ62pJkZwPin_d1yTmQuX4iPbfun0pN_Yvqv7fimhSwoD4IA
+2021-08-09_18-47-59 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_18-47-59 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_18-47-59 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MjA5OTEsImlhdCI6MTYyODUxOTE5MX0.cvkil5eGDcQ2vD5DL1eLWDG_o8FOQEC86xkPcjacGF2Lx0wX8QD_N9NAMLOfddT7p97mwqCLx-vGRTkhz_jSvQ
+2021-08-09_18-47-59 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MjA5OTEsImlhdCI6MTYyODUxOTE5MX0.cvkil5eGDcQ2vD5DL1eLWDG_o8FOQEC86xkPcjacGF2Lx0wX8QD_N9NAMLOfddT7p97mwqCLx-vGRTkhz_jSvQ
+2021-08-09_18-47-59 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-7] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MjA5OTEsImlhdCI6MTYyODUxOTE5MX0.cvkil5eGDcQ2vD5DL1eLWDG_o8FOQEC86xkPcjacGF2Lx0wX8QD_N9NAMLOfddT7p97mwqCLx-vGRTkhz_jSvQ
+2021-08-09_18-47-59 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MjA5OTEsImlhdCI6MTYyODUxOTE5MX0.cvkil5eGDcQ2vD5DL1eLWDG_o8FOQEC86xkPcjacGF2Lx0wX8QD_N9NAMLOfddT7p97mwqCLx-vGRTkhz_jSvQ
+2021-08-09_18-47-59 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MjA5OTEsImlhdCI6MTYyODUxOTE5MX0.cvkil5eGDcQ2vD5DL1eLWDG_o8FOQEC86xkPcjacGF2Lx0wX8QD_N9NAMLOfddT7p97mwqCLx-vGRTkhz_jSvQ
+2021-08-09_18-47-59 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MjA5OTEsImlhdCI6MTYyODUxOTE5MX0.cvkil5eGDcQ2vD5DL1eLWDG_o8FOQEC86xkPcjacGF2Lx0wX8QD_N9NAMLOfddT7p97mwqCLx-vGRTkhz_jSvQ
+2021-08-09_18-47-59 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_18-47-59 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_18-47-59 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_18-47-59 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_18-47-59 [RMI TCP Connection(79)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-08-09_18-47-59 [RMI TCP Connection(79)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-09_18-47-59 [RMI TCP Connection(79)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09_18-47-59 [RMI TCP Connection(79)-127.0.0.1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-08-09_18-47-59 [RMI TCP Connection(79)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-08-09_18-47-59 [RMI TCP Connection(79)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-08-09_20-29-08 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - Starting AuthorizationMicroserviceApplication using Java 16.0.1 on SUGU with PID 41920 (E:\CTS-INTERN\software\ECLIPSE\sat-proj\Policy-Authorization1\target\classes started by Suganth in E:\CTS-INTERN\software\ECLIPSE\sat-proj\Policy-Authorization1)
+2021-08-09_20-29-08 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-09_20-29-08 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-09_20-29-08 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-09_20-29-08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-09_20-29-08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 133 ms. Found 1 JPA repository interfaces.
+2021-08-09_20-29-08 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=09dd6329-0d10-3766-8e9b-776e374dbfcf
+2021-08-09_20-29-08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2021-08-09_20-29-08 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2021-08-09_20-29-08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-09_20-29-08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-09_20-29-08 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2021-08-09_20-29-08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5639 ms
+2021-08-09_20-29-08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-08-09_20-29-08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-08-09_20-29-08 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:testdb'
+2021-08-09_20-29-08 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-09_20-29-08 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-08-09_20-29-08 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-09_20-29-08 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-09_20-29-08 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-09_20-29-08 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09_20-29-08 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-08-09_20-29-08 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-09_20-29-08 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@52166c59, org.springframework.security.web.context.SecurityContextPersistenceFilter@4aa39f56, org.springframework.security.web.header.HeaderWriterFilter@47893a20, org.springframework.security.web.authentication.logout.LogoutFilter@405ebb84, com.cts.authorization.config.JwtRequestFilter@4a7b6a42, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31d48a75, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@430fa63c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19b4bf14, org.springframework.security.web.session.SessionManagementFilter@48119c43, org.springframework.security.web.access.ExceptionTranslationFilter@646442ce, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3ab3c86b]
+2021-08-09_20-29-08 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-09_20-29-08 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8400"]
+2021-08-09_20-29-08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8400 (http) with context path '/auth'
+2021-08-09_20-29-08 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-09_20-29-08 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-09_20-29-08 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-09_20-29-08 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - Started AuthorizationMicroserviceApplication in 19.919 seconds (JVM running for 23.9)
+2021-08-09_20-29-08 [http-nio-8400-exec-2] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-09_20-29-08 [http-nio-8400-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-09_20-29-08 [http-nio-8400-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-08-09_20-29-08 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_20-29-08 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_20-29-08 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_20-29-08 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_20-29-08 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_20-29-08 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_20-29-08 [RMI TCP Connection(93)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-08-09_20-29-08 [RMI TCP Connection(93)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-09_20-29-08 [RMI TCP Connection(93)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09_20-29-08 [RMI TCP Connection(93)-127.0.0.1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-08-09_20-29-08 [RMI TCP Connection(93)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-08-09_20-29-08 [RMI TCP Connection(93)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-08-09_23-10-33 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - Starting AuthorizationMicroserviceApplication using Java 16.0.1 on SUGU with PID 59376 (E:\CTS-INTERN\software\ECLIPSE\sat-proj\Policy-Authorization1\target\classes started by Suganth in E:\CTS-INTERN\software\ECLIPSE\sat-proj\Policy-Authorization1)
+2021-08-09_23-10-33 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-09_23-10-33 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-09_23-10-33 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-09_23-10-33 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-09_23-10-33 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 308 ms. Found 1 JPA repository interfaces.
+2021-08-09_23-10-33 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=09dd6329-0d10-3766-8e9b-776e374dbfcf
+2021-08-09_23-10-33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8400 (http)
+2021-08-09_23-10-33 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8400"]
+2021-08-09_23-10-33 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-09_23-10-33 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-09_23-10-33 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring embedded WebApplicationContext
+2021-08-09_23-10-33 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7053 ms
+2021-08-09_23-10-33 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-08-09_23-10-33 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-08-09_23-10-33 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:testdb'
+2021-08-09_23-10-33 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-09_23-10-33 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-08-09_23-10-33 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-09_23-10-33 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-09_23-10-33 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-09_23-10-33 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09_23-10-33 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-08-09_23-10-33 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-09_23-10-33 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29513c3c, org.springframework.security.web.context.SecurityContextPersistenceFilter@7f7eeff4, org.springframework.security.web.header.HeaderWriterFilter@1ca7673d, org.springframework.security.web.authentication.logout.LogoutFilter@f9ba516, com.cts.authorization.config.JwtRequestFilter@49184974, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27e8cb15, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@167d5d6d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28319910, org.springframework.security.web.session.SessionManagementFilter@237da96, org.springframework.security.web.access.ExceptionTranslationFilter@2d1d0d8a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@37718bca]
+2021-08-09_23-10-33 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-09_23-10-33 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8400"]
+2021-08-09_23-10-33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8400 (http) with context path '/auth'
+2021-08-09_23-10-33 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-09_23-10-33 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-09_23-10-33 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-09_23-10-33 [restartedMain] INFO  c.c.a.AuthorizationMicroserviceApplication - Started AuthorizationMicroserviceApplication in 21.969 seconds (JVM running for 25.31)
+2021-08-09_23-10-33 [http-nio-8400-exec-1] INFO  o.a.c.c.C.[.[localhost].[/auth] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-09_23-10-33 [http-nio-8400-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-09_23-10-33 [http-nio-8400-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-08-09_23-10-33 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcwNzUsImlhdCI6MTYyODUxNTI3NX0.Ppx5OvFkuJyZZ34yVZxJ0-uk27TVcj-54zZrVH34_-MD6tvjoZ1CdNQR9GKzZnIi_6ge36d_8IruJzKnutMxpA
+2021-08-09_23-10-33 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcwNzUsImlhdCI6MTYyODUxNTI3NX0.Ppx5OvFkuJyZZ34yVZxJ0-uk27TVcj-54zZrVH34_-MD6tvjoZ1CdNQR9GKzZnIi_6ge36d_8IruJzKnutMxpA
+2021-08-09_23-10-33 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_23-10-33 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_23-10-33 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_23-10-33 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_23-10-33 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_23-10-33 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_23-10-33 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_23-10-33 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_23-10-33 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MzMxNzMsImlhdCI6MTYyODUzMTM3M30.4W4ERBpaq2TMZAjIcBGwi92wUXzgkN6jHcj-kIJtU8MQdMg6dSqvJsABUXMG0ZMbub-IrD_P68k10IO9Q6OUTg
+2021-08-09_23-10-33 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MzMxNzMsImlhdCI6MTYyODUzMTM3M30.4W4ERBpaq2TMZAjIcBGwi92wUXzgkN6jHcj-kIJtU8MQdMg6dSqvJsABUXMG0ZMbub-IrD_P68k10IO9Q6OUTg
+2021-08-09_23-10-33 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcwNzUsImlhdCI6MTYyODUxNTI3NX0.Ppx5OvFkuJyZZ34yVZxJ0-uk27TVcj-54zZrVH34_-MD6tvjoZ1CdNQR9GKzZnIi_6ge36d_8IruJzKnutMxpA
+2021-08-09_23-10-33 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcwNzUsImlhdCI6MTYyODUxNTI3NX0.Ppx5OvFkuJyZZ34yVZxJ0-uk27TVcj-54zZrVH34_-MD6tvjoZ1CdNQR9GKzZnIi_6ge36d_8IruJzKnutMxpA
+2021-08-09_23-10-33 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcwNzUsImlhdCI6MTYyODUxNTI3NX0.Ppx5OvFkuJyZZ34yVZxJ0-uk27TVcj-54zZrVH34_-MD6tvjoZ1CdNQR9GKzZnIi_6ge36d_8IruJzKnutMxpA
+2021-08-09_23-10-33 [http-nio-8400-exec-6] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcwNzUsImlhdCI6MTYyODUxNTI3NX0.Ppx5OvFkuJyZZ34yVZxJ0-uk27TVcj-54zZrVH34_-MD6tvjoZ1CdNQR9GKzZnIi_6ge36d_8IruJzKnutMxpA
+2021-08-09_23-10-33 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcwNzUsImlhdCI6MTYyODUxNTI3NX0.Ppx5OvFkuJyZZ34yVZxJ0-uk27TVcj-54zZrVH34_-MD6tvjoZ1CdNQR9GKzZnIi_6ge36d_8IruJzKnutMxpA
+2021-08-09_23-10-33 [http-nio-8400-exec-7] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTcwNzUsImlhdCI6MTYyODUxNTI3NX0.Ppx5OvFkuJyZZ34yVZxJ0-uk27TVcj-54zZrVH34_-MD6tvjoZ1CdNQR9GKzZnIi_6ge36d_8IruJzKnutMxpA
+2021-08-09_23-10-33 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_23-10-33 [http-nio-8400-exec-8] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_23-10-33 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MzMxNzMsImlhdCI6MTYyODUzMTM3M30.4W4ERBpaq2TMZAjIcBGwi92wUXzgkN6jHcj-kIJtU8MQdMg6dSqvJsABUXMG0ZMbub-IrD_P68k10IO9Q6OUTg
+2021-08-09_23-10-33 [http-nio-8400-exec-8] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MzMxNzMsImlhdCI6MTYyODUzMTM3M30.4W4ERBpaq2TMZAjIcBGwi92wUXzgkN6jHcj-kIJtU8MQdMg6dSqvJsABUXMG0ZMbub-IrD_P68k10IO9Q6OUTg
+2021-08-09_23-10-33 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_23-10-33 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_23-10-33 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_23-10-33 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_23-10-33 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MzMxNzMsImlhdCI6MTYyODUzMTM3M30.4W4ERBpaq2TMZAjIcBGwi92wUXzgkN6jHcj-kIJtU8MQdMg6dSqvJsABUXMG0ZMbub-IrD_P68k10IO9Q6OUTg
+2021-08-09_23-10-33 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MzMxNzMsImlhdCI6MTYyODUzMTM3M30.4W4ERBpaq2TMZAjIcBGwi92wUXzgkN6jHcj-kIJtU8MQdMg6dSqvJsABUXMG0ZMbub-IrD_P68k10IO9Q6OUTg
+2021-08-09_23-10-33 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_23-10-33 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_23-10-33 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MzMxNzMsImlhdCI6MTYyODUzMTM3M30.4W4ERBpaq2TMZAjIcBGwi92wUXzgkN6jHcj-kIJtU8MQdMg6dSqvJsABUXMG0ZMbub-IrD_P68k10IO9Q6OUTg
+2021-08-09_23-10-33 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MzMxNzMsImlhdCI6MTYyODUzMTM3M30.4W4ERBpaq2TMZAjIcBGwi92wUXzgkN6jHcj-kIJtU8MQdMg6dSqvJsABUXMG0ZMbub-IrD_P68k10IO9Q6OUTg
+2021-08-09_23-10-33 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_23-10-33 [http-nio-8400-exec-3] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_23-10-33 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MzMxNzMsImlhdCI6MTYyODUzMTM3M30.4W4ERBpaq2TMZAjIcBGwi92wUXzgkN6jHcj-kIJtU8MQdMg6dSqvJsABUXMG0ZMbub-IrD_P68k10IO9Q6OUTg
+2021-08-09_23-10-33 [http-nio-8400-exec-3] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MzMxNzMsImlhdCI6MTYyODUzMTM3M30.4W4ERBpaq2TMZAjIcBGwi92wUXzgkN6jHcj-kIJtU8MQdMg6dSqvJsABUXMG0ZMbub-IrD_P68k10IO9Q6OUTg
+2021-08-09_23-10-33 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_23-10-33 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MTAzMTksImlhdCI6MTYyODUwODUxOX0.P82NIhxZo2IsaZcEjxoM9E_DoRPuNZNuYai46MnuKKQtwHUDEEoszcLDyI6_GWwm_HThGhiIenLVCMVu5lmdSg
+2021-08-09_23-10-33 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_23-10-33 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_23-10-33 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MzMxNzMsImlhdCI6MTYyODUzMTM3M30.4W4ERBpaq2TMZAjIcBGwi92wUXzgkN6jHcj-kIJtU8MQdMg6dSqvJsABUXMG0ZMbub-IrD_P68k10IO9Q6OUTg
+2021-08-09_23-10-33 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MzMxNzMsImlhdCI6MTYyODUzMTM3M30.4W4ERBpaq2TMZAjIcBGwi92wUXzgkN6jHcj-kIJtU8MQdMg6dSqvJsABUXMG0ZMbub-IrD_P68k10IO9Q6OUTg
+2021-08-09_23-10-33 [http-nio-8400-exec-9] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_23-10-33 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_23-10-33 [http-nio-8400-exec-9] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_23-10-33 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Inside authenticate Method==================================
+2021-08-09_23-10-33 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_23-10-33 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_23-10-33 [http-nio-8400-exec-10] INFO  c.c.a.c.JwtAuthenticationController - Authentication Successful.....
+2021-08-09_23-10-33 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_23-10-33 [http-nio-8400-exec-10] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_23-10-33 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_23-10-33 [http-nio-8400-exec-1] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_23-10-33 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MzU0NzYsImlhdCI6MTYyODUzMzY3Nn0.PqWI7P9z3S6jRgELGpXMBGlbgX3IlYM2l5Cax9HCeat2jo0ch4ScFnPPtNviyRjUpkyip_FxI3Q8-NR8ktoPuw
+2021-08-09_23-10-33 [http-nio-8400-exec-1] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MzU0NzYsImlhdCI6MTYyODUzMzY3Nn0.PqWI7P9z3S6jRgELGpXMBGlbgX3IlYM2l5Cax9HCeat2jo0ch4ScFnPPtNviyRjUpkyip_FxI3Q8-NR8ktoPuw
+2021-08-09_23-10-33 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_23-10-33 [http-nio-8400-exec-2] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_23-10-33 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MzU0NzYsImlhdCI6MTYyODUzMzY3Nn0.PqWI7P9z3S6jRgELGpXMBGlbgX3IlYM2l5Cax9HCeat2jo0ch4ScFnPPtNviyRjUpkyip_FxI3Q8-NR8ktoPuw
+2021-08-09_23-10-33 [http-nio-8400-exec-2] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MzU0NzYsImlhdCI6MTYyODUzMzY3Nn0.PqWI7P9z3S6jRgELGpXMBGlbgX3IlYM2l5Cax9HCeat2jo0ch4ScFnPPtNviyRjUpkyip_FxI3Q8-NR8ktoPuw
+2021-08-09_23-10-33 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_23-10-33 [http-nio-8400-exec-4] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_23-10-33 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MzU0NzYsImlhdCI6MTYyODUzMzY3Nn0.PqWI7P9z3S6jRgELGpXMBGlbgX3IlYM2l5Cax9HCeat2jo0ch4ScFnPPtNviyRjUpkyip_FxI3Q8-NR8ktoPuw
+2021-08-09_23-10-33 [http-nio-8400-exec-4] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MzU0NzYsImlhdCI6MTYyODUzMzY3Nn0.PqWI7P9z3S6jRgELGpXMBGlbgX3IlYM2l5Cax9HCeat2jo0ch4ScFnPPtNviyRjUpkyip_FxI3Q8-NR8ktoPuw
+2021-08-09_23-10-33 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - User found
+2021-08-09_23-10-33 [http-nio-8400-exec-5] INFO  c.c.a.service.JwtUserDetailsService - user successfully located
+2021-08-09_23-10-33 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - Inside authorize ==============Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MzU0NzYsImlhdCI6MTYyODUzMzY3Nn0.PqWI7P9z3S6jRgELGpXMBGlbgX3IlYM2l5Cax9HCeat2jo0ch4ScFnPPtNviyRjUpkyip_FxI3Q8-NR8ktoPuw
+2021-08-09_23-10-33 [http-nio-8400-exec-5] INFO  c.c.a.c.JwtAuthenticationController - JWT Tocken =======================eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZ2VudDEiLCJleHAiOjE2Mjg1MzU0NzYsImlhdCI6MTYyODUzMzY3Nn0.PqWI7P9z3S6jRgELGpXMBGlbgX3IlYM2l5Cax9HCeat2jo0ch4ScFnPPtNviyRjUpkyip_FxI3Q8-NR8ktoPuw

@@ -1,0 +1,11 @@
+2021-08-09_13-37-38 [http-nio-8200-exec-3] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-09_13-37-38 [http-nio-8200-exec-5] ERROR c.c.p.c.e.GlobalExceptionHandler - Consumer not found
+2021-08-09_18-48-25 [http-nio-8200-exec-2] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-09_18-48-25 [http-nio-8200-exec-8] ERROR c.c.p.c.e.GlobalExceptionHandler - Cannot invoke "com.cognizant.pas.consumer.model.Property.getId()" because "property" is null
+2021-08-09_18-48-25 [http-nio-8200-exec-7] ERROR c.c.p.c.e.GlobalExceptionHandler - Cannot invoke "com.cognizant.pas.consumer.model.Property.getId()" because "property" is null
+2021-08-09_18-48-25 [http-nio-8200-exec-10] ERROR c.c.p.c.e.GlobalExceptionHandler - Cannot invoke "com.cognizant.pas.consumer.model.Property.getId()" because "property" is null
+2021-08-09_18-48-25 [http-nio-8200-exec-2] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-09_23-10-44 [http-nio-8200-exec-2] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-09_23-10-44 [http-nio-8200-exec-4] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-09_23-10-44 [http-nio-8200-exec-5] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-09_23-10-44 [http-nio-8200-exec-6] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed

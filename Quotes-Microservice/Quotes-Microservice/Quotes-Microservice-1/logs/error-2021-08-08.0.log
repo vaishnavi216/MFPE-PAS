@@ -1,0 +1,16 @@
+2021-08-08_12-51-55 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8100 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8100 or configure this application to listen on another port.
+
+2021-08-08_12-52-05 [main] ERROR c.c.p.q.e.GlobalExceptionHandler - message
+2021-08-08_12-52-05 [main] ERROR c.c.p.q.e.GlobalExceptionHandler - message

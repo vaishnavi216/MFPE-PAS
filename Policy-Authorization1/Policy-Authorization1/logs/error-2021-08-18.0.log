@@ -1,0 +1,21 @@
+2021-08-18_12-09-08 [main] ERROR c.c.a.e.GlobalExceptionHandler - message
+2021-08-18_12-09-08 [main] ERROR c.c.a.e.GlobalExceptionHandler - message
+2021-08-18_12-09-47 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8400 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8400 or configure this application to listen on another port.
+
+2021-08-18_12-09-56 [main] ERROR c.c.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.cts.authorization.model.JwtResponse> com.cts.authorization.controller.JwtAuthenticationController.createAuthenticationToken(com.cts.authorization.model.JwtRequest) throws com.cts.authorization.exception.AuthorizationException
+2021-08-18_12-09-56 [main] ERROR c.c.a.e.GlobalExceptionHandler - Required request body is missing: public org.springframework.http.ResponseEntity<com.cts.authorization.model.JwtResponse> com.cts.authorization.controller.JwtAuthenticationController.createAuthenticationToken(com.cts.authorization.model.JwtRequest) throws com.cts.authorization.exception.AuthorizationException
+2021-08-18_12-09-56 [main] ERROR c.c.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2021-08-18_12-09-56 [main] ERROR c.c.a.e.GlobalExceptionHandler - Cannot invoke "org.springframework.security.core.Authentication.getCredentials()" because "auth" is null
+2021-08-18_12-06-12 [http-nio-8400-exec-3] ERROR c.c.a.config.JwtRequestFilter - JWT Token has expired

@@ -1,0 +1,23 @@
+2021-08-18_12-01-21 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8200 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8200 or configure this application to listen on another port.
+
+2021-08-18_12-01-26 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-18_12-01-26 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-18_12-01-26 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-18_12-01-26 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-18_12-01-26 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-18_12-01-26 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - message
+2021-08-18_12-01-26 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - message
+2021-08-18_12-01-26 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - message
+2021-08-18_12-01-26 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - message

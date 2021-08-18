@@ -1,0 +1,165 @@
+2021-08-08_10-21-47 [http-nio-8200-exec-3] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_10-21-47 [http-nio-8200-exec-9] ERROR c.c.p.c.e.GlobalExceptionHandler - Cannot invoke "com.cognizant.pas.consumer.model.Property.getId()" because "property" is null
+2021-08-08_10-21-47 [http-nio-8200-exec-2] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_10-58-32 [restartedMain] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: Multiple references to database sequence [seq] were encountered attempting to set conflicting values for 'initial value'.  Found [10001] and [500]
+2021-08-08_10-58-32 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.HibernateException: Multiple references to database sequence [seq] were encountered attempting to set conflicting values for 'initial value'.  Found [10001] and [500]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1159)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:913)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at com.cognizant.pas.consumer.ConsumerMicroserviceApplication.main(ConsumerMicroserviceApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.hibernate.HibernateException: Multiple references to database sequence [seq] were encountered attempting to set conflicting values for 'initial value'.  Found [10001] and [500]
+	at org.hibernate.boot.model.relational.Sequence.validate(Sequence.java:68)
+	at org.hibernate.id.enhanced.SequenceStructure.buildSequence(SequenceStructure.java:179)
+	at org.hibernate.id.enhanced.SequenceStructure.registerExportables(SequenceStructure.java:143)
+	at org.hibernate.id.enhanced.SequenceStyleGenerator.registerExportables(SequenceStyleGenerator.java:563)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.handleIdentifierValueBinding(InFlightMetadataCollectorImpl.java:2325)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processExportableProducers(InFlightMetadataCollectorImpl.java:2281)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.buildMetadataInstance(InFlightMetadataCollectorImpl.java:2239)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:324)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1847)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	... 22 common frames omitted
+2021-08-08_11-00-59 [http-nio-8200-exec-2] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-02-34 [http-nio-8200-exec-4] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-02-34 [http-nio-8200-exec-5] ERROR c.c.p.c.e.GlobalExceptionHandler - Consumer not found
+2021-08-08_11-02-34 [HikariPool-11 connection adder] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Error thrown while acquiring connection from data source
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: The database is open in exclusive mode; can not open additional connections [90135-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.engine.Session.checkSuspended(Session.java:1369)
+	at org.h2.engine.Session.isOpen(Session.java:1303)
+	at org.h2.engine.Session.waitIfExclusiveModeEnabled(Session.java:1639)
+	at org.h2.command.Command.executeQuery(Command.java:186)
+	at org.h2.jdbc.JdbcConnection.isReadOnly(JdbcConnection.java:631)
+	at com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:363)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+2021-08-08_11-08-44 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-08-44 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-08-44 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-08-44 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-08-44 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-34-45 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-34-45 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-34-45 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-34-45 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-34-45 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-37-48 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-37-48 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-37-48 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-37-48 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-37-48 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-45-38 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-45-38 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-45-38 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-45-38 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-45-38 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-52-12 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-52-12 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-52-12 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-52-12 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-52-12 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-56-27 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-56-27 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-56-27 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-56-27 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-56-27 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-57-41 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-57-41 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-57-41 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-57-41 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_11-57-41 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-00-53 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-00-53 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-00-53 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-00-53 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-00-53 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-04-20 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-04-20 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-04-20 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-04-20 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-04-20 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-06-07 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-06-07 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-06-07 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-06-07 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-06-07 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-06-07 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-07-11 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-07-11 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-07-11 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-07-11 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-07-11 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-07-11 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-10-51 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - message
+2021-08-08_12-10-51 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - message
+2021-08-08_12-10-51 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - message
+2021-08-08_12-10-51 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - message
+2021-08-08_12-11-24 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - message
+2021-08-08_12-11-24 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - message
+2021-08-08_12-11-24 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - message
+2021-08-08_12-11-24 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - message
+2021-08-08_12-17-27 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-17-27 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-17-27 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-17-27 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-17-27 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-17-27 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-19-40 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-19-40 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-19-40 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-19-40 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-19-40 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-19-40 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-19-40 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - message
+2021-08-08_12-19-40 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - message
+2021-08-08_12-19-40 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - message
+2021-08-08_12-19-40 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - message
+2021-08-08_12-27-52 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-27-52 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-27-52 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-27-52 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-27-52 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-27-52 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-08_12-27-52 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - message
+2021-08-08_12-27-52 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - message
+2021-08-08_12-27-52 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - message
+2021-08-08_12-27-52 [main] ERROR c.c.p.c.e.GlobalExceptionHandler - message

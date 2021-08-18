@@ -1,0 +1,3 @@
+2021-08-06_22-45-07 [RMI TCP Connection(53)-127.0.0.1] ERROR o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000478: Unsuccessful: drop table if exists property CASCADE 
+2021-08-06_22-45-07 [RMI TCP Connection(53)-127.0.0.1] ERROR o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000478: Unsuccessful: drop table if exists property_master CASCADE 
+2021-08-06_22-45-07 [RMI TCP Connection(53)-127.0.0.1] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]

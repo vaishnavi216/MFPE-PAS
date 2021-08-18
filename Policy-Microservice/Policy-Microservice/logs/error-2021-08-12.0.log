@@ -1,0 +1,9 @@
+2021-08-12_13-03-54 [http-nio-8300-exec-8] ERROR c.c.p.p.e.GlobalExceptionHandler - Index 0 out of bounds for length 0
+2021-08-12_13-03-54 [http-nio-8300-exec-7] ERROR c.c.p.p.e.GlobalExceptionHandler - Index 0 out of bounds for length 0
+2021-08-12_13-03-54 [http-nio-8300-exec-1] ERROR c.c.p.p.e.GlobalExceptionHandler - Index 0 out of bounds for length 0
+2021-08-12_13-03-54 [http-nio-8300-exec-3] ERROR c.c.p.p.e.GlobalExceptionHandler - [404] during [GET] to [http://localhost:8200/consumer-api/viewConsumerBusinessByPolicy/1002?consumerid=1002] [ConsumerClient#viewConsumerBusinessbypolicy(Long,String)]: [{"timeStamp":"12-08-2021 02:12:44","status":"NOT_FOUND","message":"Consumer not found"}]
+2021-08-12_13-03-54 [http-nio-8300-exec-5] ERROR c.c.p.p.e.GlobalExceptionHandler - Index 0 out of bounds for length 0
+2021-08-12_13-03-54 [http-nio-8300-exec-6] ERROR c.c.p.p.e.GlobalExceptionHandler - Index 0 out of bounds for length 0
+2021-08-12_14-19-16 [http-nio-8300-exec-1] ERROR c.c.p.p.e.GlobalExceptionHandler - Index 0 out of bounds for length 0
+2021-08-12_14-21-20 [http-nio-8300-exec-1] ERROR c.c.p.p.e.GlobalExceptionHandler - Index 0 out of bounds for length 0
+2021-08-12_20-34-48 [http-nio-8300-exec-4] ERROR c.c.p.p.e.GlobalExceptionHandler - [401] during [GET] to [http://localhost:8200/consumer-api/viewConsumerBusinessByPolicy/1001?consumerid=1001] [ConsumerClient#viewConsumerBusinessbypolicy(Long,String)]: [{"timeStamp":"12-08-2021 08:36:06","status":"UNAUTHORIZED","message":"query did not return a unique result: 2; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 2"}]

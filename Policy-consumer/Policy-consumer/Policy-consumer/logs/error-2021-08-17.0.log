@@ -1,0 +1,2 @@
+2021-08-17_12-55-24 [http-nio-8200-exec-2] ERROR c.c.p.c.e.GlobalExceptionHandler - query did not return a unique result: 2; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 2
+2021-08-17_12-55-24 [http-nio-8200-exec-4] ERROR c.c.p.c.e.GlobalExceptionHandler - query did not return a unique result: 2; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 2

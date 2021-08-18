@@ -1,0 +1,81 @@
+2021-08-07_13-05-18 [http-nio-8200-exec-2] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-07_13-05-18 [http-nio-8200-exec-5] ERROR c.c.p.c.e.GlobalExceptionHandler - Validation failed for classes [com.cognizant.pas.consumer.model.Consumer] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='must not be blank', propertyPath=loaction, rootBeanClass=class com.cognizant.pas.consumer.model.Consumer, messageTemplate='{javax.validation.constraints.NotBlank.message}'}
+]
+2021-08-07_13-05-18 [http-nio-8200-exec-6] ERROR c.c.p.c.e.GlobalExceptionHandler - Validation failed for classes [com.cognizant.pas.consumer.model.Consumer] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='must not be blank', propertyPath=loaction, rootBeanClass=class com.cognizant.pas.consumer.model.Consumer, messageTemplate='{javax.validation.constraints.NotBlank.message}'}
+]
+2021-08-07_13-32-36 [http-nio-8200-exec-4] ERROR c.c.p.c.e.GlobalExceptionHandler - Handler dispatch failed; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The constructor ConsumerBusinessDetails(String, String, String, String, String, String, String, String, String, String, String, Long, Long, Long, String, String, Long, Long, Long, Long, Long) is undefined
+
+2021-08-07_13-32-36 [http-nio-8200-exec-3] ERROR c.c.p.c.e.GlobalExceptionHandler - Handler dispatch failed; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The constructor ConsumerBusinessDetails(String, String, String, String, String, String, String, String, String, String, String, Long, Long, Long, String, String, Long, Long, Long, Long, Long) is undefined
+
+2021-08-07_13-32-36 [http-nio-8200-exec-6] ERROR c.c.p.c.e.GlobalExceptionHandler - Handler dispatch failed; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The constructor ConsumerBusinessDetails(String, String, String, String, String, String, String, String, String, String, String, Long, Long, Long, String, String, Long, Long, Long, Long, Long) is undefined
+
+2021-08-07_13-32-36 [http-nio-8200-exec-7] ERROR c.c.p.c.e.GlobalExceptionHandler - Handler dispatch failed; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The constructor ConsumerBusinessDetails(String, String, String, String, String, String, String, String, String, String, String, Long, Long, Long, String, String, Long, Long, Long, Long, Long) is undefined
+
+2021-08-07_13-57-23 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8200 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8200 or configure this application to listen on another port.
+
+2021-08-07_14-02-53 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8200 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8200 or configure this application to listen on another port.
+
+2021-08-07_14-08-13 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8200 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8200 or configure this application to listen on another port.
+
+2021-08-07_13-48-35 [http-nio-8200-exec-4] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-07_15-25-34 [http-nio-8200-exec-6] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-07_16-11-18 [http-nio-8200-exec-4] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-07_17-47-28 [http-nio-8200-exec-5] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-07_18-41-48 [http-nio-8200-exec-8] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-07_18-41-48 [http-nio-8200-exec-7] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-07_19-18-35 [http-nio-8200-exec-3] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-07_19-18-35 [RMI TCP Connection(46)-127.0.0.1] ERROR o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000478: Unsuccessful: drop table if exists business_master CASCADE 
+2021-08-07_19-18-35 [RMI TCP Connection(46)-127.0.0.1] ERROR o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000478: Unsuccessful: drop table if exists consumer CASCADE 
+2021-08-07_19-18-35 [RMI TCP Connection(46)-127.0.0.1] ERROR o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000478: Unsuccessful: drop table if exists property CASCADE 
+2021-08-07_19-18-35 [RMI TCP Connection(46)-127.0.0.1] ERROR o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000478: Unsuccessful: drop table if exists property_master CASCADE 
+2021-08-07_19-18-35 [RMI TCP Connection(46)-127.0.0.1] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-08-07_22-46-57 [http-nio-8200-exec-2] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-07_22-46-57 [http-nio-8200-exec-3] ERROR c.c.p.c.e.GlobalExceptionHandler - Consumer not found
+2021-08-07_22-46-57 [http-nio-8200-exec-5] ERROR c.c.p.c.e.GlobalExceptionHandler - Cannot invoke "com.cognizant.pas.consumer.model.Property.getId()" because "property" is null
+2021-08-07_22-46-57 [http-nio-8200-exec-7] ERROR c.c.p.c.e.GlobalExceptionHandler - Consumer not found
+2021-08-07_22-46-57 [http-nio-8200-exec-9] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed
+2021-08-07_22-46-57 [http-nio-8200-exec-1] ERROR c.c.p.c.e.GlobalExceptionHandler - Not allowed

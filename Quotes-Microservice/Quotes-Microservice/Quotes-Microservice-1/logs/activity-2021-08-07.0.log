@@ -1,0 +1,210 @@
+2021-08-07_14-10-32 [restartedMain] INFO  c.c.p.q.QuotesMicroserviceApplication - Starting QuotesMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 1296 (C:\Users\rames\Documents\mfpe-pod\Quotes-Microservice\Quotes-Microservice-1\target\classes started by rames in C:\Users\rames\Documents\mfpe-pod\Quotes-Microservice\Quotes-Microservice-1)
+2021-08-07_14-10-32 [restartedMain] INFO  c.c.p.q.QuotesMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-07_14-10-32 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-07_14-10-32 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-07_14-10-32 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-07_14-10-32 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 273 ms. Found 1 JPA repository interfaces.
+2021-08-07_14-10-32 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=3ae6aad1-0ec7-3819-ac78-608d1d6edb36
+2021-08-07_14-10-32 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.quotes.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-07_14-10-32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2021-08-07_14-10-32 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2021-08-07_14-10-32 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-07_14-10-32 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-07_14-10-32 [restartedMain] INFO  o.a.c.c.C.[.[.[/quotes-api] - Initializing Spring embedded WebApplicationContext
+2021-08-07_14-10-32 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 11467 ms
+2021-08-07_14-10-32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-08-07_14-10-32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-08-07_14-10-32 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quotes_db'
+2021-08-07_14-10-32 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-07_14-10-32 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-07_14-10-32 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-07_14-10-32 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2021-08-07_14-10-32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path '/quotes-api'
+2021-08-07_14-10-32 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-07_14-10-32 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-07_14-10-32 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-07_14-10-32 [restartedMain] INFO  c.c.p.q.QuotesMicroserviceApplication - Started QuotesMicroserviceApplication in 30.213 seconds (JVM running for 35.053)
+2021-08-07_14-13-28 [main] INFO  c.c.p.q.QuotesMicroserviceApplication - Starting QuotesMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 11148 (started by rames in C:\Users\rames\Documents\mfpe-pod\Quotes-Microservice\Quotes-Microservice-1)
+2021-08-07_14-13-28 [main] INFO  c.c.p.q.QuotesMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-07_14-13-28 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-07_14-13-28 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 148 ms. Found 1 JPA repository interfaces.
+2021-08-07_14-13-28 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e273a9f1-54cf-347b-b261-725e893cfbd1
+2021-08-07_14-13-28 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.quotes.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-07_14-13-28 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2021-08-07_14-13-28 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2021-08-07_14-13-28 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-07_14-13-28 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-07_14-13-28 [main] INFO  o.a.c.c.C.[.[.[/quotes-api] - Initializing Spring embedded WebApplicationContext
+2021-08-07_14-13-28 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6571 ms
+2021-08-07_14-13-28 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-08-07_14-13-28 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-08-07_14-13-28 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quotes_db'
+2021-08-07_14-13-28 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-07_14-13-28 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-07_14-13-28 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-07_14-13-28 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2021-08-07_14-13-28 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-07_14-13-28 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-07_14-13-28 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-08-07_14-13-28 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-08-07_14-13-28 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8100"]
+2021-08-07_14-13-28 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2021-08-07_14-13-28 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8100"]
+2021-08-07_14-13-28 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8100"]
+2021-08-07_14-13-28 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-07_14-10-32 [RMI TCP Connection(12)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-08-07_14-10-32 [RMI TCP Connection(12)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-07_14-10-32 [RMI TCP Connection(12)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-07_14-10-32 [RMI TCP Connection(12)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-08-07_14-10-32 [RMI TCP Connection(12)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-08-07_14-55-22 [restartedMain] INFO  c.c.p.q.QuotesMicroserviceApplication - Starting QuotesMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 2064 (C:\Users\rames\Documents\mfpe-pod\Quotes-Microservice\Quotes-Microservice-1\target\classes started by rames in C:\Users\rames\Documents\mfpe-pod\Quotes-Microservice\Quotes-Microservice-1)
+2021-08-07_14-55-22 [restartedMain] INFO  c.c.p.q.QuotesMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-07_14-55-22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-07_14-55-22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-07_14-55-22 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-07_14-55-22 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 264 ms. Found 1 JPA repository interfaces.
+2021-08-07_14-55-22 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=3ae6aad1-0ec7-3819-ac78-608d1d6edb36
+2021-08-07_14-55-22 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.quotes.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-07_14-55-22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2021-08-07_14-55-22 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2021-08-07_14-55-22 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-07_14-55-22 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-07_14-55-22 [restartedMain] INFO  o.a.c.c.C.[.[.[/quotes-api] - Initializing Spring embedded WebApplicationContext
+2021-08-07_14-55-22 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 13092 ms
+2021-08-07_14-55-22 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-08-07_14-55-22 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-08-07_14-55-22 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quotes_db'
+2021-08-07_14-55-22 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-07_14-55-22 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-07_14-55-22 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-07_14-55-22 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2021-08-07_14-55-22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path '/quotes-api'
+2021-08-07_14-55-22 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-07_14-55-22 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-07_14-55-22 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-07_14-55-22 [restartedMain] INFO  c.c.p.q.QuotesMicroserviceApplication - Started QuotesMicroserviceApplication in 42.716 seconds (JVM running for 48.793)
+2021-08-07_14-55-22 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/quotes-api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-07_14-55-22 [http-nio-8100-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-07_14-55-22 [http-nio-8100-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 622 ms
+2021-08-07_14-55-22 [http-nio-8100-exec-3] INFO  c.c.p.q.controller.QuotesController - Start
+2021-08-07_14-55-22 [Thread-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-07_14-55-22 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-07_14-55-22 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-08-07_14-55-22 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-08-07_17-52-52 [restartedMain] INFO  c.c.p.q.QuotesMicroserviceApplication - Starting QuotesMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 2064 (C:\Users\rames\Documents\mfpe-pod\Quotes-Microservice\Quotes-Microservice-1\target\classes started by rames in C:\Users\rames\Documents\mfpe-pod\Quotes-Microservice\Quotes-Microservice-1)
+2021-08-07_17-52-52 [restartedMain] INFO  c.c.p.q.QuotesMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-07_17-52-52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-07_17-52-52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 209 ms. Found 1 JPA repository interfaces.
+2021-08-07_17-52-52 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=3ae6aad1-0ec7-3819-ac78-608d1d6edb36
+2021-08-07_17-52-52 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.quotes.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-07_17-52-52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2021-08-07_17-52-52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2021-08-07_17-52-52 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-07_17-52-52 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-07_17-52-52 [restartedMain] INFO  o.a.c.c.C.[.[.[/quotes-api] - Initializing Spring embedded WebApplicationContext
+2021-08-07_17-52-52 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 14848 ms
+2021-08-07_17-52-52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2021-08-07_17-52-52 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2021-08-07_17-52-52 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quotes_db'
+2021-08-07_17-52-52 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-07_17-52-52 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-07_17-52-52 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-07_17-52-52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2021-08-07_17-52-52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path '/quotes-api'
+2021-08-07_17-52-52 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-07_17-52-52 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-07_17-52-52 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-07_17-52-52 [restartedMain] INFO  c.c.p.q.QuotesMicroserviceApplication - Started QuotesMicroserviceApplication in 25.999 seconds (JVM running for 10681.56)
+2021-08-07_17-52-52 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-08-07_17-52-52 [Thread-10] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-07_17-52-52 [Thread-10] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-07_17-52-52 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2021-08-07_17-52-52 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2021-08-07_17-53-17 [restartedMain] INFO  c.c.p.q.QuotesMicroserviceApplication - Starting QuotesMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 2064 (C:\Users\rames\Documents\mfpe-pod\Quotes-Microservice\Quotes-Microservice-1\target\classes started by rames in C:\Users\rames\Documents\mfpe-pod\Quotes-Microservice\Quotes-Microservice-1)
+2021-08-07_17-53-17 [restartedMain] INFO  c.c.p.q.QuotesMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-07_17-53-17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-07_17-53-17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interfaces.
+2021-08-07_17-53-17 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=3ae6aad1-0ec7-3819-ac78-608d1d6edb36
+2021-08-07_17-53-17 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.quotes.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-07_17-53-17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2021-08-07_17-53-17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2021-08-07_17-53-17 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-07_17-53-17 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-07_17-53-17 [restartedMain] INFO  o.a.c.c.C.[.[.[/quotes-api] - Initializing Spring embedded WebApplicationContext
+2021-08-07_17-53-17 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3704 ms
+2021-08-07_17-53-17 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2021-08-07_17-53-17 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2021-08-07_17-53-17 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quotes_db'
+2021-08-07_17-53-17 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-07_17-53-17 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-07_17-53-17 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-07_17-53-17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2021-08-07_17-53-17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path '/quotes-api'
+2021-08-07_17-53-17 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-07_17-53-17 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-07_17-53-17 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-07_17-53-17 [restartedMain] INFO  c.c.p.q.QuotesMicroserviceApplication - Started QuotesMicroserviceApplication in 9.301 seconds (JVM running for 10691.856)
+2021-08-07_17-53-17 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-08-07_17-53-54 [main] INFO  c.c.p.q.QuotesMicroserviceApplication - Starting QuotesMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 6200 (started by rames in C:\Users\rames\Documents\mfpe-pod\Quotes-Microservice\Quotes-Microservice-1)
+2021-08-07_17-53-54 [main] INFO  c.c.p.q.QuotesMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-07_17-53-54 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-07_17-53-54 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1379 ms. Found 1 JPA repository interfaces.
+2021-08-07_17-53-54 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=e273a9f1-54cf-347b-b261-725e893cfbd1
+2021-08-07_17-53-54 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.quotes.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-07_17-53-54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2021-08-07_17-53-54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2021-08-07_17-53-54 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-07_17-53-54 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-07_17-53-54 [main] INFO  o.a.c.c.C.[.[.[/quotes-api] - Initializing Spring embedded WebApplicationContext
+2021-08-07_17-53-54 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 43229 ms
+2021-08-07_17-53-54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-08-07_17-53-54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-08-07_17-53-54 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quotes_db'
+2021-08-07_17-53-54 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-07_17-53-54 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-07_17-53-54 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-07_17-53-54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2021-08-07_17-53-54 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-07_17-53-54 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-07_17-53-54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-08-07_17-53-54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-08-07_17-53-54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8100"]
+2021-08-07_17-53-54 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2021-08-07_17-53-54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8100"]
+2021-08-07_17-53-54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8100"]
+2021-08-07_17-53-54 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-07_17-53-17 [RMI TCP Connection(238)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-08-07_17-53-17 [RMI TCP Connection(238)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-07_17-53-17 [RMI TCP Connection(238)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-07_17-53-17 [RMI TCP Connection(238)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2021-08-07_17-53-17 [RMI TCP Connection(238)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2021-08-07_18-22-11 [restartedMain] INFO  c.c.p.q.QuotesMicroserviceApplication - Starting QuotesMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 2996 (C:\Users\rames\Documents\mfpe-pod\Quotes-Microservice\Quotes-Microservice-1\target\classes started by rames in C:\Users\rames\Documents\mfpe-pod\Quotes-Microservice\Quotes-Microservice-1)
+2021-08-07_18-22-11 [restartedMain] INFO  c.c.p.q.QuotesMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-07_18-22-11 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-07_18-22-11 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-07_18-22-11 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-07_18-22-11 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 295 ms. Found 1 JPA repository interfaces.
+2021-08-07_18-22-11 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=3ae6aad1-0ec7-3819-ac78-608d1d6edb36
+2021-08-07_18-22-11 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.quotes.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-07_18-22-11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2021-08-07_18-22-11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2021-08-07_18-22-11 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-07_18-22-11 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-07_18-22-11 [restartedMain] INFO  o.a.c.c.C.[.[.[/quotes-api] - Initializing Spring embedded WebApplicationContext
+2021-08-07_18-22-11 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 14161 ms
+2021-08-07_18-22-11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-08-07_18-22-11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-08-07_18-22-11 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:quotes_db'
+2021-08-07_18-22-11 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-07_18-22-11 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-07_18-22-11 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-07_18-22-11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2021-08-07_18-22-11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path '/quotes-api'
+2021-08-07_18-22-11 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-07_18-22-11 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-07_18-22-11 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-07_18-22-11 [restartedMain] INFO  c.c.p.q.QuotesMicroserviceApplication - Started QuotesMicroserviceApplication in 35.433 seconds (JVM running for 41.852)

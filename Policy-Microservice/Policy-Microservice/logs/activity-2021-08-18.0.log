@@ -1,0 +1,654 @@
+2021-08-18_12-02-36 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-08-18_12-02-36 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Starting PolicyMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 3500 (D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice\target\classes started by rames in D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice)
+2021-08-18_12-02-36 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-18_12-02-36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-18_12-02-36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-18_12-02-36 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-18_12-02-36 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 460 ms. Found 2 JPA repository interfaces.
+2021-08-18_12-02-36 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1c2678bb-61a9-3f2b-a070-935dc3012a84
+2021-08-18_12-02-36 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_12-02-36 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.ConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_12-02-36 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.QuotesClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_12-02-36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8300 (http)
+2021-08-18_12-02-36 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8300"]
+2021-08-18_12-02-36 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-18_12-02-36 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-18_12-02-36 [restartedMain] INFO  o.a.c.c.C.[.[.[/policy-api] - Initializing Spring embedded WebApplicationContext
+2021-08-18_12-02-36 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 9377 ms
+2021-08-18_12-02-36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-08-18_12-02-36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-08-18_12-02-36 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-08-18_12-02-36 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-18_12-02-36 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-08-18_12-02-36 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-18_12-02-36 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-18_12-02-36 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-18_12-02-36 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_12-02-36 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-18_12-02-36 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-18_12-02-36 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8300"]
+2021-08-18_12-02-36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8300 (http) with context path '/policy-api'
+2021-08-18_12-02-36 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-18_12-02-36 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-18_12-02-36 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-18_12-02-36 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Started PolicyMicroserviceApplication in 25.238 seconds (JVM running for 30.85)
+2021-08-18_12-03-42 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cognizant.pas.policy.PolicyMicroserviceApplicationTests], using SpringBootContextLoader
+2021-08-18_12-03-42 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cognizant.pas.policy.PolicyMicroserviceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-08-18_12-03-42 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cognizant.pas.policy.PolicyMicroserviceApplicationTests]: PolicyMicroserviceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-08-18_12-03-42 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cognizant.pas.policy.PolicyMicroserviceApplication for test class com.cognizant.pas.policy.PolicyMicroserviceApplicationTests
+2021-08-18_12-03-42 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-08-18_12-03-42 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@f446158, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@32f0c7f8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@504e1599, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@71f96dfb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5d1b9c3d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@69e05f61, org.springframework.test.context.transaction.TransactionalTestExecutionListener@49a26d19, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@730e5763, org.springframework.test.context.event.EventPublishingTestExecutionListener@7275c74b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@19058533, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4315e9af, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@42210be1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1eb2d371, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2babf189, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@479f2dc2]
+2021-08-18_12-03-46 [main] INFO  c.c.p.p.PolicyMicroserviceApplicationTests - Starting PolicyMicroserviceApplicationTests using Java 15.0.2 on DESKTOP-BH92MP6 with PID 1380 (started by rames in D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice)
+2021-08-18_12-03-46 [main] INFO  c.c.p.p.PolicyMicroserviceApplicationTests - No active profile set, falling back to default profiles: default
+2021-08-18_12-03-46 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2021-08-18_12-03-46 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-18_12-03-46 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 146 ms. Found 2 JPA repository interfaces.
+2021-08-18_12-03-46 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f912fb75-2ea7-3719-b42b-d56d686080d0
+2021-08-18_12-03-46 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_12-03-46 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.ConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_12-03-46 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.QuotesClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_12-03-46 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-18_12-03-46 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-08-18_12-03-46 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-18_12-03-46 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-08-18_12-03-46 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-08-18_12-03-46 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-18_12-03-46 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-18_12-03-46 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_12-03-46 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-08-18_12-03-46 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-18_12-03-46 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-18_12-03-46 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-18_12-03-46 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-18_12-03-46 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-18_12-03-46 [main] INFO  c.c.p.p.PolicyMicroserviceApplicationTests - Started PolicyMicroserviceApplicationTests in 16.591 seconds (JVM running for 24.226)
+2021-08-18_12-04-00 [main] INFO  c.c.p.p.PolicyMicroserviceApplication - Starting PolicyMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 1380 (started by rames in D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice)
+2021-08-18_12-04-00 [main] INFO  c.c.p.p.PolicyMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-18_12-04-00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-18_12-04-00 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
+2021-08-18_12-04-00 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=37a8bc69-2198-3eee-97f1-c37a41ac040f
+2021-08-18_12-04-00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_12-04-00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.ConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_12-04-00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.QuotesClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_12-04-00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8300 (http)
+2021-08-18_12-04-00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8300"]
+2021-08-18_12-04-00 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-18_12-04-00 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-18_12-04-00 [main] INFO  o.a.c.c.C.[.[.[/policy-api] - Initializing Spring embedded WebApplicationContext
+2021-08-18_12-04-00 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1795 ms
+2021-08-18_12-04-00 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2021-08-18_12-04-00 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2021-08-18_12-04-00 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-08-18_12-04-00 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-18_12-04-00 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-18_12-04-00 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-18_12-04-00 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_12-04-00 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-18_12-04-00 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-18_12-04-00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8300"]
+2021-08-18_12-04-00 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-18_12-04-00 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_12-04-00 [main] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-08-18_12-04-00 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2021-08-18_12-04-00 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2021-08-18_12-04-00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8300"]
+2021-08-18_12-04-00 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2021-08-18_12-04-00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8300"]
+2021-08-18_12-04-00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8300"]
+2021-08-18_12-04-00 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-18_12-04-00 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cognizant.pas.policy.controller.PolicyControllerTests], using SpringBootContextLoader
+2021-08-18_12-04-00 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cognizant.pas.policy.controller.PolicyControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-08-18_12-04-00 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cognizant.pas.policy.controller.PolicyControllerTests]: PolicyControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-08-18_12-04-00 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cognizant.pas.policy.PolicyMicroserviceApplication for test class com.cognizant.pas.policy.controller.PolicyControllerTests
+2021-08-18_12-04-00 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-08-18_12-04-00 [main] INFO  o.s.b.t.a.w.s.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@563bbf74, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@72eed4db, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@52031e42, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@63d85fdf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@68938ccf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6cdfd50a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@26e437dd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@763b279, org.springframework.test.context.event.EventPublishingTestExecutionListener@73e2a3ae, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@61874f5d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@66dad66f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7cb040b7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1aa9635c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@418f2af3, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@71d6e503]
+2021-08-18_12-04-04 [main] INFO  c.c.p.p.c.PolicyControllerTests - Starting PolicyControllerTests using Java 15.0.2 on DESKTOP-BH92MP6 with PID 1380 (started by rames in D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice)
+2021-08-18_12-04-04 [main] INFO  c.c.p.p.c.PolicyControllerTests - No active profile set, falling back to default profiles: default
+2021-08-18_12-04-04 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_12-04-04 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.ConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_12-04-04 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.QuotesClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_12-04-04 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-18_12-04-06 [main] INFO  c.c.p.p.c.PolicyControllerTests - Starting PolicyControllerTests using Java 15.0.2 on DESKTOP-BH92MP6 with PID 1380 (started by rames in D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice)
+2021-08-18_12-04-06 [main] INFO  c.c.p.p.c.PolicyControllerTests - No active profile set, falling back to default profiles: default
+2021-08-18_12-04-06 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_12-04-06 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.ConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_12-04-06 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.QuotesClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_12-04-06 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-18_12-04-07 [main] INFO  c.c.p.p.c.PolicyControllerTests - Starting PolicyControllerTests using Java 15.0.2 on DESKTOP-BH92MP6 with PID 1380 (started by rames in D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice)
+2021-08-18_12-04-07 [main] INFO  c.c.p.p.c.PolicyControllerTests - No active profile set, falling back to default profiles: default
+2021-08-18_12-04-07 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_12-04-07 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.ConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_12-04-07 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.QuotesClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_12-04-07 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-18_12-04-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cognizant.pas.policy.exception.AuthorizationExceptionTest], using SpringBootContextLoader
+2021-08-18_12-04-07 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cognizant.pas.policy.exception.AuthorizationExceptionTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-08-18_12-04-07 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cognizant.pas.policy.exception.AuthorizationExceptionTest]: AuthorizationExceptionTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-08-18_12-04-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cognizant.pas.policy.PolicyMicroserviceApplication for test class com.cognizant.pas.policy.exception.AuthorizationExceptionTest
+2021-08-18_12-04-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-08-18_12-04-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2fa7a4d3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@65f913fd, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@56059cf1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3b89bccf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@299a0651, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4518e64, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7ec9780b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8d0dcd9, org.springframework.test.context.event.EventPublishingTestExecutionListener@7101fb1c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@79ab79f6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4c974fe8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@422f74b7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3c88bef5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1e4e145b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@68d0e075]
+2021-08-18_12-04-07 [main] INFO  c.c.p.p.e.AuthorizationExceptionTest - Starting AuthorizationExceptionTest using Java 15.0.2 on DESKTOP-BH92MP6 with PID 1380 (started by rames in D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice)
+2021-08-18_12-04-07 [main] INFO  c.c.p.p.e.AuthorizationExceptionTest - No active profile set, falling back to default profiles: default
+2021-08-18_12-04-07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-18_12-04-07 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
+2021-08-18_12-04-07 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f912fb75-2ea7-3719-b42b-d56d686080d0
+2021-08-18_12-04-07 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.ConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_12-04-07 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.QuotesClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_12-04-07 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-18_12-04-07 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2021-08-18_12-04-07 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2021-08-18_12-04-07 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-18_12-04-07 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-18_12-04-07 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_12-04-07 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-08-18_12-04-07 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-18_12-04-07 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-18_12-04-07 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-18_12-04-07 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-18_12-04-07 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-18_12-04-07 [main] INFO  c.c.p.p.e.AuthorizationExceptionTest - Started AuthorizationExceptionTest in 4.96 seconds (JVM running for 36.178)
+2021-08-18_12-04-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cognizant.pas.policy.exception.GlobalExceptionHandlerTest], using SpringBootContextLoader
+2021-08-18_12-04-07 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cognizant.pas.policy.exception.GlobalExceptionHandlerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-08-18_12-04-07 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cognizant.pas.policy.exception.GlobalExceptionHandlerTest]: GlobalExceptionHandlerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-08-18_12-04-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cognizant.pas.policy.PolicyMicroserviceApplication for test class com.cognizant.pas.policy.exception.GlobalExceptionHandlerTest
+2021-08-18_12-04-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-08-18_12-04-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@80249b0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@68e1f0a1, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1c584c7f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@11a0aee8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@b753aa5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6c76a792, org.springframework.test.context.transaction.TransactionalTestExecutionListener@321325d7, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26501a93, org.springframework.test.context.event.EventPublishingTestExecutionListener@452bcee, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5dc1c1c1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@76577a33, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@50f572e8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@41d101d4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@12cd1fe6, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5f86796e]
+2021-08-18_12-04-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cognizant.pas.policy.exception.ExceptionDetailsTest], using SpringBootContextLoader
+2021-08-18_12-04-07 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.cognizant.pas.policy.exception.ExceptionDetailsTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-08-18_12-04-07 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cognizant.pas.policy.exception.ExceptionDetailsTest]: ExceptionDetailsTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-08-18_12-04-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.cognizant.pas.policy.PolicyMicroserviceApplication for test class com.cognizant.pas.policy.exception.ExceptionDetailsTest
+2021-08-18_12-04-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-08-18_12-04-07 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@a221405, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4b8c6a2f, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@12f3e95d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@70595d2a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6a41ed18, org.springframework.test.context.support.DirtiesContextTestExecutionListener@42343f6d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4f808f77, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@758a3ba0, org.springframework.test.context.event.EventPublishingTestExecutionListener@10462124, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@736abb16, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@38da693b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1c2912bb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3d475f1b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1b53e1ae, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@70abd04e]
+2021-08-18_12-04-07 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-18_12-04-07 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-18_12-04-07 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_12-04-07 [SpringContextShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-08-18_12-04-07 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2021-08-18_12-04-07 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_12-04-07 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2021-08-18_12-04-07 [SpringContextShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-08-18_12-04-07 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-08-18_12-04-07 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-08-18_12-02-36 [Thread-1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-18_12-02-36 [Thread-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_12-02-36 [Thread-1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-08-18_12-02-36 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-08-18_12-02-36 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-08-18_14-31-13 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Starting PolicyMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 3500 (D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice\target\classes started by rames in D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice)
+2021-08-18_14-31-13 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-18_14-31-13 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-18_14-31-13 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 118 ms. Found 2 JPA repository interfaces.
+2021-08-18_14-31-13 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1c2678bb-61a9-3f2b-a070-935dc3012a84
+2021-08-18_14-31-13 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-31-13 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.ConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-31-13 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.QuotesClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-31-13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8300 (http)
+2021-08-18_14-31-13 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8300"]
+2021-08-18_14-31-13 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-18_14-31-13 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-18_14-31-13 [restartedMain] INFO  o.a.c.c.C.[.[.[/policy-api] - Initializing Spring embedded WebApplicationContext
+2021-08-18_14-31-13 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6682 ms
+2021-08-18_14-31-13 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2021-08-18_14-31-13 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2021-08-18_14-31-13 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-08-18_14-31-13 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-18_14-31-13 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-18_14-31-13 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-18_14-31-13 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_14-31-13 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-18_14-31-13 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-18_14-31-13 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8300"]
+2021-08-18_14-31-13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8300 (http) with context path '/policy-api'
+2021-08-18_14-31-13 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-18_14-31-13 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-18_14-31-13 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-18_14-31-13 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Started PolicyMicroserviceApplication in 17.602 seconds (JVM running for 8939.716)
+2021-08-18_14-31-13 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-08-18_14-31-13 [Thread-10] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-18_14-31-13 [Thread-10] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_14-31-13 [Thread-10] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-08-18_14-31-13 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2021-08-18_14-31-13 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2021-08-18_14-31-31 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Starting PolicyMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 3500 (D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice\target\classes started by rames in D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice)
+2021-08-18_14-31-31 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-18_14-31-31 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-18_14-31-31 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74 ms. Found 2 JPA repository interfaces.
+2021-08-18_14-31-31 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1c2678bb-61a9-3f2b-a070-935dc3012a84
+2021-08-18_14-31-31 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-31-31 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.ConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-31-31 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.QuotesClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-31-31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8300 (http)
+2021-08-18_14-31-31 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8300"]
+2021-08-18_14-31-31 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-18_14-31-31 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-18_14-31-31 [restartedMain] INFO  o.a.c.c.C.[.[.[/policy-api] - Initializing Spring embedded WebApplicationContext
+2021-08-18_14-31-31 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3144 ms
+2021-08-18_14-31-31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2021-08-18_14-31-31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2021-08-18_14-31-31 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-08-18_14-31-31 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-18_14-31-31 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-18_14-31-31 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-18_14-31-31 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_14-31-31 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-18_14-31-31 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-18_14-31-31 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8300"]
+2021-08-18_14-31-31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8300 (http) with context path '/policy-api'
+2021-08-18_14-31-31 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-18_14-31-31 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-18_14-31-31 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-18_14-31-31 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Started PolicyMicroserviceApplication in 9.676 seconds (JVM running for 8949.999)
+2021-08-18_14-31-31 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-08-18_14-31-31 [Thread-17] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-18_14-31-31 [Thread-17] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_14-31-31 [Thread-17] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-08-18_14-31-31 [Thread-17] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2021-08-18_14-31-31 [Thread-17] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2021-08-18_14-33-38 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Starting PolicyMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 3500 (D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice\target\classes started by rames in D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice)
+2021-08-18_14-33-38 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-18_14-33-38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-18_14-33-38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+2021-08-18_14-33-38 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1c2678bb-61a9-3f2b-a070-935dc3012a84
+2021-08-18_14-33-38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-33-38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.ConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-33-38 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.QuotesClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-33-38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8300 (http)
+2021-08-18_14-33-38 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8300"]
+2021-08-18_14-33-38 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-18_14-33-38 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-18_14-33-38 [restartedMain] INFO  o.a.c.c.C.[.[.[/policy-api] - Initializing Spring embedded WebApplicationContext
+2021-08-18_14-33-38 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1205 ms
+2021-08-18_14-33-38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2021-08-18_14-33-38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2021-08-18_14-33-38 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-08-18_14-33-38 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-18_14-33-38 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-18_14-33-38 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-18_14-33-38 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_14-33-38 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-18_14-33-38 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-18_14-33-38 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8300"]
+2021-08-18_14-33-38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8300 (http) with context path '/policy-api'
+2021-08-18_14-33-38 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-18_14-33-38 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-18_14-33-38 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-18_14-33-38 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Started PolicyMicroserviceApplication in 7.303 seconds (JVM running for 9075.833)
+2021-08-18_14-33-38 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-08-18_14-33-38 [Thread-26] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-18_14-33-38 [Thread-26] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_14-33-38 [Thread-26] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-08-18_14-33-38 [Thread-26] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2021-08-18_14-33-38 [Thread-26] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2021-08-18_14-36-32 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Starting PolicyMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 3500 (D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice\target\classes started by rames in D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice)
+2021-08-18_14-36-32 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-18_14-36-32 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-18_14-36-32 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 106 ms. Found 2 JPA repository interfaces.
+2021-08-18_14-36-32 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1c2678bb-61a9-3f2b-a070-935dc3012a84
+2021-08-18_14-36-32 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-36-32 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.ConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-36-32 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.QuotesClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-36-32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8300 (http)
+2021-08-18_14-36-32 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8300"]
+2021-08-18_14-36-32 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-18_14-36-32 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-18_14-36-32 [restartedMain] INFO  o.a.c.c.C.[.[.[/policy-api] - Initializing Spring embedded WebApplicationContext
+2021-08-18_14-36-32 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3672 ms
+2021-08-18_14-36-32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2021-08-18_14-36-32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2021-08-18_14-36-32 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-08-18_14-36-32 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-18_14-36-32 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-18_14-36-32 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-18_14-36-32 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_14-36-32 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-18_14-36-32 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-18_14-36-32 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8300"]
+2021-08-18_14-36-32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8300 (http) with context path '/policy-api'
+2021-08-18_14-36-32 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-18_14-36-32 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-18_14-36-32 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-18_14-36-32 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Started PolicyMicroserviceApplication in 8.404 seconds (JVM running for 9251.087)
+2021-08-18_14-36-32 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-08-18_14-36-32 [Thread-34] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-18_14-36-32 [Thread-34] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_14-36-32 [Thread-34] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-08-18_14-36-32 [Thread-34] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2021-08-18_14-36-32 [Thread-34] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2021-08-18_14-40-18 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Starting PolicyMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 3500 (D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice\target\classes started by rames in D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice)
+2021-08-18_14-40-18 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-18_14-40-18 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-18_14-40-18 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 129 ms. Found 2 JPA repository interfaces.
+2021-08-18_14-40-18 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1c2678bb-61a9-3f2b-a070-935dc3012a84
+2021-08-18_14-40-18 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-40-18 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.ConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-40-18 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.QuotesClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-40-18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8300 (http)
+2021-08-18_14-40-18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8300"]
+2021-08-18_14-40-18 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-18_14-40-18 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-18_14-40-18 [restartedMain] INFO  o.a.c.c.C.[.[.[/policy-api] - Initializing Spring embedded WebApplicationContext
+2021-08-18_14-40-18 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5071 ms
+2021-08-18_14-40-18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2021-08-18_14-40-18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2021-08-18_14-40-18 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-08-18_14-40-18 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-18_14-40-18 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-18_14-40-18 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-18_14-40-18 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_14-40-18 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-18_14-40-18 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-18_14-40-18 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8300"]
+2021-08-18_14-40-18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8300 (http) with context path '/policy-api'
+2021-08-18_14-40-18 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-18_14-40-18 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-18_14-40-18 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-18_14-40-18 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Started PolicyMicroserviceApplication in 11.044 seconds (JVM running for 9479.088)
+2021-08-18_14-40-18 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-08-18_14-40-18 [Thread-42] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-18_14-40-18 [Thread-42] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_14-40-18 [Thread-42] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-08-18_14-40-18 [Thread-42] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2021-08-18_14-40-18 [Thread-42] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2021-08-18_14-40-30 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Starting PolicyMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 3500 (D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice\target\classes started by rames in D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice)
+2021-08-18_14-40-30 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-18_14-40-30 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-18_14-40-30 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2021-08-18_14-40-30 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1c2678bb-61a9-3f2b-a070-935dc3012a84
+2021-08-18_14-40-30 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-40-30 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.ConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-40-30 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.QuotesClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-40-30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8300 (http)
+2021-08-18_14-40-30 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8300"]
+2021-08-18_14-40-30 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-18_14-40-30 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-18_14-40-30 [restartedMain] INFO  o.a.c.c.C.[.[.[/policy-api] - Initializing Spring embedded WebApplicationContext
+2021-08-18_14-40-30 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2632 ms
+2021-08-18_14-40-30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2021-08-18_14-40-30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2021-08-18_14-40-30 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-08-18_14-40-30 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-18_14-40-30 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-18_14-40-30 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-18_14-40-30 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_14-40-30 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-18_14-40-30 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-18_14-40-30 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8300"]
+2021-08-18_14-40-30 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8300 (http) with context path '/policy-api'
+2021-08-18_14-40-30 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-18_14-40-30 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-18_14-40-30 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-18_14-40-30 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Started PolicyMicroserviceApplication in 9.398 seconds (JVM running for 9489.067)
+2021-08-18_14-40-30 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-08-18_14-40-30 [http-nio-8300-exec-1] INFO  o.a.c.c.C.[.[.[/policy-api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-18_14-40-30 [http-nio-8300-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-18_14-40-30 [http-nio-8300-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2021-08-18_14-40-30 [http-nio-8300-exec-2] INFO  c.c.p.p.controller.PolicyController - Start viewPolicy
+2021-08-18_14-40-30 [Thread-50] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-18_14-40-30 [Thread-50] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_14-40-30 [Thread-50] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-08-18_14-40-30 [Thread-50] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2021-08-18_14-40-30 [Thread-50] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2021-08-18_14-47-23 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Starting PolicyMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 3500 (D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice\target\classes started by rames in D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice)
+2021-08-18_14-47-23 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-18_14-47-23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-18_14-47-23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 2 JPA repository interfaces.
+2021-08-18_14-47-23 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1c2678bb-61a9-3f2b-a070-935dc3012a84
+2021-08-18_14-47-23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-47-23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.ConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-47-23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.QuotesClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-47-23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8300 (http)
+2021-08-18_14-47-23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8300"]
+2021-08-18_14-47-23 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-18_14-47-23 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-18_14-47-23 [restartedMain] INFO  o.a.c.c.C.[.[.[/policy-api] - Initializing Spring embedded WebApplicationContext
+2021-08-18_14-47-23 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1172 ms
+2021-08-18_14-47-23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2021-08-18_14-47-23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2021-08-18_14-47-23 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-08-18_14-47-23 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-18_14-47-23 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-18_14-47-23 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-18_14-47-23 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_14-47-23 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-18_14-47-23 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-18_14-47-23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8300"]
+2021-08-18_14-47-23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8300 (http) with context path '/policy-api'
+2021-08-18_14-47-23 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-18_14-47-23 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-18_14-47-23 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-18_14-47-23 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Started PolicyMicroserviceApplication in 6.094 seconds (JVM running for 9899.352)
+2021-08-18_14-47-23 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-08-18_14-47-23 [Thread-58] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-18_14-47-23 [Thread-58] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_14-47-23 [Thread-58] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-08-18_14-47-23 [Thread-58] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2021-08-18_14-47-23 [Thread-58] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2021-08-18_14-52-05 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Starting PolicyMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 3500 (D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice\target\classes started by rames in D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice)
+2021-08-18_14-52-05 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-18_14-52-05 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-18_14-52-05 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 96 ms. Found 2 JPA repository interfaces.
+2021-08-18_14-52-05 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1c2678bb-61a9-3f2b-a070-935dc3012a84
+2021-08-18_14-52-05 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-52-05 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.ConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-52-05 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.QuotesClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_14-52-05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8300 (http)
+2021-08-18_14-52-05 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8300"]
+2021-08-18_14-52-05 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-18_14-52-05 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-18_14-52-05 [restartedMain] INFO  o.a.c.c.C.[.[.[/policy-api] - Initializing Spring embedded WebApplicationContext
+2021-08-18_14-52-05 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4601 ms
+2021-08-18_14-52-05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+2021-08-18_14-52-05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+2021-08-18_14-52-05 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-08-18_14-52-05 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-18_14-52-05 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-18_14-52-05 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-18_14-52-05 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_14-52-05 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-18_14-52-05 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-18_14-52-05 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8300"]
+2021-08-18_14-52-05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8300 (http) with context path '/policy-api'
+2021-08-18_14-52-05 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-18_14-52-05 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-18_14-52-05 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-18_14-52-05 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Started PolicyMicroserviceApplication in 9.869 seconds (JVM running for 10185.495)
+2021-08-18_14-52-05 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-08-18_14-52-05 [http-nio-8300-exec-1] INFO  o.a.c.c.C.[.[.[/policy-api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-18_14-52-05 [http-nio-8300-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-18_14-52-05 [http-nio-8300-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2021-08-18_14-52-05 [http-nio-8300-exec-2] INFO  c.c.p.p.controller.PolicyController - Start getQuotes
+2021-08-18_14-52-05 [http-nio-8300-exec-2] INFO  c.c.p.p.service.PolicyServiceImpl - Start getQuotesService
+2021-08-18_14-52-05 [http-nio-8300-exec-3] INFO  c.c.p.p.controller.PolicyController - Start getQuotes
+2021-08-18_14-52-05 [http-nio-8300-exec-3] INFO  c.c.p.p.service.PolicyServiceImpl - Start getQuotesService
+2021-08-18_14-52-05 [http-nio-8300-exec-3] INFO  c.c.p.p.service.PolicyServiceImpl - End getQuotesService
+2021-08-18_14-52-05 [http-nio-8300-exec-3] INFO  c.c.p.p.controller.PolicyController - End getQuotes
+2021-08-18_14-52-05 [http-nio-8300-exec-8] INFO  c.c.p.p.controller.PolicyController - Start createPolicy
+2021-08-18_14-52-05 [http-nio-8300-exec-8] INFO  c.c.p.p.service.PolicyServiceImpl - Start createPolicyService
+2021-08-18_14-52-05 [http-nio-8300-exec-8] INFO  c.c.p.p.service.PolicyServiceImpl - Start getConsumerBusiness
+2021-08-18_14-52-05 [http-nio-8300-exec-8] INFO  c.c.p.p.service.PolicyServiceImpl - End getConsumerBusiness
+2021-08-18_14-52-05 [http-nio-8300-exec-8] INFO  c.c.p.p.service.PolicyServiceImpl - End createPolicyService
+2021-08-18_14-52-05 [http-nio-8300-exec-8] INFO  c.c.p.p.controller.PolicyController - End createPolicy
+2021-08-18_14-52-05 [http-nio-8300-exec-10] INFO  c.c.p.p.controller.PolicyController - Start viewPolicy
+2021-08-18_14-52-05 [http-nio-8300-exec-10] INFO  c.c.p.p.controller.PolicyController - Auth Successful
+2021-08-18_14-52-05 [http-nio-8300-exec-10] INFO  c.c.p.p.controller.PolicyController - Consumer found
+2021-08-18_14-52-05 [http-nio-8300-exec-10] INFO  c.c.p.p.service.PolicyServiceImpl - Start viewPolicyService
+2021-08-18_14-52-05 [http-nio-8300-exec-10] INFO  c.c.p.p.service.PolicyServiceImpl - End viewPolicyService
+2021-08-18_14-52-05 [http-nio-8300-exec-10] INFO  c.c.p.p.controller.PolicyController - End viewPolicy
+2021-08-18_14-52-05 [Thread-66] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-18_14-52-05 [Thread-66] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_14-52-05 [Thread-66] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-08-18_14-52-05 [Thread-66] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+2021-08-18_14-52-05 [Thread-66] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+2021-08-18_15-16-06 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Starting PolicyMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 3500 (D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice\target\classes started by rames in D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice)
+2021-08-18_15-16-06 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-18_15-16-06 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-18_15-16-06 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 152 ms. Found 2 JPA repository interfaces.
+2021-08-18_15-16-06 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1c2678bb-61a9-3f2b-a070-935dc3012a84
+2021-08-18_15-16-06 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_15-16-06 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.ConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_15-16-06 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.QuotesClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_15-16-06 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8300 (http)
+2021-08-18_15-16-06 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8300"]
+2021-08-18_15-16-06 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-18_15-16-06 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-18_15-16-06 [restartedMain] INFO  o.a.c.c.C.[.[.[/policy-api] - Initializing Spring embedded WebApplicationContext
+2021-08-18_15-16-06 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 12150 ms
+2021-08-18_15-16-06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
+2021-08-18_15-16-06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
+2021-08-18_15-16-06 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-08-18_15-16-06 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-18_15-16-06 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-18_15-16-06 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-18_15-16-06 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_15-16-06 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-18_15-16-06 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-18_15-16-06 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8300"]
+2021-08-18_15-16-06 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8300 (http) with context path '/policy-api'
+2021-08-18_15-16-06 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-18_15-16-06 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-18_15-16-06 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-18_15-16-06 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Started PolicyMicroserviceApplication in 26.752 seconds (JVM running for 11638.557)
+2021-08-18_15-16-06 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-08-18_15-16-06 [Thread-74] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-18_15-16-06 [Thread-74] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_15-16-06 [Thread-74] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-08-18_15-16-06 [Thread-74] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
+2021-08-18_15-16-06 [Thread-74] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
+2021-08-18_15-20-11 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Starting PolicyMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 3500 (D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice\target\classes started by rames in D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice)
+2021-08-18_15-20-11 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-18_15-20-11 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-18_15-20-11 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces.
+2021-08-18_15-20-11 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1c2678bb-61a9-3f2b-a070-935dc3012a84
+2021-08-18_15-20-11 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_15-20-11 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.ConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_15-20-11 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.QuotesClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_15-20-11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8300 (http)
+2021-08-18_15-20-11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8300"]
+2021-08-18_15-20-11 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-18_15-20-11 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-18_15-20-11 [restartedMain] INFO  o.a.c.c.C.[.[.[/policy-api] - Initializing Spring embedded WebApplicationContext
+2021-08-18_15-20-11 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1491 ms
+2021-08-18_15-20-11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Starting...
+2021-08-18_15-20-11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Start completed.
+2021-08-18_15-20-11 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-08-18_15-20-11 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-18_15-20-11 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-18_15-20-11 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-18_15-20-11 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_15-20-11 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-18_15-20-11 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-18_15-20-11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8300"]
+2021-08-18_15-20-11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8300 (http) with context path '/policy-api'
+2021-08-18_15-20-11 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-18_15-20-11 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-18_15-20-11 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-18_15-20-11 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Started PolicyMicroserviceApplication in 8.026 seconds (JVM running for 11868.974)
+2021-08-18_15-20-11 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-08-18_15-20-11 [Thread-82] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-18_15-20-11 [Thread-82] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_15-20-11 [Thread-82] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-08-18_15-20-11 [Thread-82] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown initiated...
+2021-08-18_15-20-11 [Thread-82] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown completed.
+2021-08-18_15-22-09 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Starting PolicyMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 3500 (D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice\target\classes started by rames in D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice)
+2021-08-18_15-22-09 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-18_15-22-09 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-18_15-22-09 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+2021-08-18_15-22-09 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1c2678bb-61a9-3f2b-a070-935dc3012a84
+2021-08-18_15-22-09 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_15-22-09 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.ConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_15-22-09 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.QuotesClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_15-22-09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8300 (http)
+2021-08-18_15-22-09 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8300"]
+2021-08-18_15-22-09 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-18_15-22-09 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-18_15-22-09 [restartedMain] INFO  o.a.c.c.C.[.[.[/policy-api] - Initializing Spring embedded WebApplicationContext
+2021-08-18_15-22-09 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2344 ms
+2021-08-18_15-22-09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Starting...
+2021-08-18_15-22-09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Start completed.
+2021-08-18_15-22-09 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-08-18_15-22-09 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-18_15-22-09 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-18_15-22-09 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-18_15-22-09 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_15-22-09 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-18_15-22-09 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-18_15-22-09 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8300"]
+2021-08-18_15-22-09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8300 (http) with context path '/policy-api'
+2021-08-18_15-22-09 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-18_15-22-09 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-18_15-22-09 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-18_15-22-09 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Started PolicyMicroserviceApplication in 6.997 seconds (JVM running for 11985.416)
+2021-08-18_15-22-09 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-08-18_15-22-09 [Thread-90] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-18_15-22-09 [Thread-90] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_15-22-09 [Thread-90] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-08-18_15-22-09 [Thread-90] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown initiated...
+2021-08-18_15-22-09 [Thread-90] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown completed.
+2021-08-18_15-22-29 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Starting PolicyMicroserviceApplication using Java 15.0.2 on DESKTOP-BH92MP6 with PID 3500 (D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice\target\classes started by rames in D:\MFPE-val\PAS\Policy-Microservice\Policy-Microservice)
+2021-08-18_15-22-29 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - No active profile set, falling back to default profiles: default
+2021-08-18_15-22-29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-18_15-22-29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+2021-08-18_15-22-29 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1c2678bb-61a9-3f2b-a070-935dc3012a84
+2021-08-18_15-22-29 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_15-22-29 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.ConsumerClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_15-22-29 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cognizant.pas.policy.feign.QuotesClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-18_15-22-29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8300 (http)
+2021-08-18_15-22-29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8300"]
+2021-08-18_15-22-29 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-18_15-22-29 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-08-18_15-22-29 [restartedMain] INFO  o.a.c.c.C.[.[.[/policy-api] - Initializing Spring embedded WebApplicationContext
+2021-08-18_15-22-29 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2546 ms
+2021-08-18_15-22-29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Starting...
+2021-08-18_15-22-29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Start completed.
+2021-08-18_15-22-29 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pasdb'
+2021-08-18_15-22-29 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-18_15-22-29 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-18_15-22-29 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-18_15-22-29 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-18_15-22-29 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-18_15-22-29 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-18_15-22-29 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8300"]
+2021-08-18_15-22-29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8300 (http) with context path '/policy-api'
+2021-08-18_15-22-29 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2021-08-18_15-22-29 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-08-18_15-22-29 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2021-08-18_15-22-29 [restartedMain] INFO  c.c.p.p.PolicyMicroserviceApplication - Started PolicyMicroserviceApplication in 7.943 seconds (JVM running for 12006.097)
+2021-08-18_15-22-29 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2021-08-18_15-22-29 [http-nio-8300-exec-1] INFO  o.a.c.c.C.[.[.[/policy-api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-18_15-22-29 [http-nio-8300-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-08-18_15-22-29 [http-nio-8300-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 30 ms
+2021-08-18_15-22-29 [http-nio-8300-exec-2] INFO  c.c.p.p.controller.PolicyController - Start viewPolicy
+2021-08-18_15-22-29 [http-nio-8300-exec-2] INFO  c.c.p.p.controller.PolicyController - Auth Successful
+2021-08-18_15-22-29 [http-nio-8300-exec-6] INFO  c.c.p.p.controller.PolicyController - Start viewPolicy
+2021-08-18_15-22-29 [http-nio-8300-exec-6] INFO  c.c.p.p.controller.PolicyController - Auth Successful
+2021-08-18_15-22-29 [http-nio-8300-exec-7] INFO  c.c.p.p.controller.PolicyController - Start viewPolicy
+2021-08-18_15-22-29 [http-nio-8300-exec-7] INFO  c.c.p.p.controller.PolicyController - Auth Successful
+2021-08-18_15-22-29 [http-nio-8300-exec-8] INFO  c.c.p.p.controller.PolicyController - Start createPolicy
+2021-08-18_15-22-29 [http-nio-8300-exec-8] INFO  c.c.p.p.service.PolicyServiceImpl - Start createPolicyService
+2021-08-18_15-22-29 [http-nio-8300-exec-8] INFO  c.c.p.p.service.PolicyServiceImpl - Start getConsumerBusiness
+2021-08-18_15-22-29 [http-nio-8300-exec-8] INFO  c.c.p.p.service.PolicyServiceImpl - End getConsumerBusiness
+2021-08-18_15-22-29 [http-nio-8300-exec-8] INFO  c.c.p.p.service.PolicyServiceImpl - End createPolicyService
+2021-08-18_15-22-29 [http-nio-8300-exec-8] INFO  c.c.p.p.controller.PolicyController - End createPolicy
+2021-08-18_15-22-29 [http-nio-8300-exec-1] INFO  c.c.p.p.controller.PolicyController - Start viewPolicy
+2021-08-18_15-22-29 [http-nio-8300-exec-1] INFO  c.c.p.p.controller.PolicyController - Auth Successful
+2021-08-18_15-22-29 [http-nio-8300-exec-1] INFO  c.c.p.p.controller.PolicyController - Consumer found
+2021-08-18_15-22-29 [http-nio-8300-exec-1] INFO  c.c.p.p.service.PolicyServiceImpl - Start viewPolicyService
+2021-08-18_15-22-29 [http-nio-8300-exec-1] INFO  c.c.p.p.service.PolicyServiceImpl - End viewPolicyService
+2021-08-18_15-22-29 [http-nio-8300-exec-1] INFO  c.c.p.p.controller.PolicyController - End viewPolicy
+2021-08-18_15-22-29 [http-nio-8300-exec-3] INFO  c.c.p.p.controller.PolicyController - Start issuePolicy
+2021-08-18_15-22-29 [http-nio-8300-exec-3] INFO  c.c.p.p.service.PolicyServiceImpl - Start issuePolicyService
+2021-08-18_15-22-29 [http-nio-8300-exec-3] INFO  c.c.p.p.service.PolicyServiceImpl - End issuePolicyService
+2021-08-18_15-22-29 [http-nio-8300-exec-3] INFO  c.c.p.p.controller.PolicyController - End issuePolicy
+2021-08-18_15-22-29 [http-nio-8300-exec-6] INFO  c.c.p.p.controller.PolicyController - Start viewPolicy
+2021-08-18_15-22-29 [http-nio-8300-exec-6] INFO  c.c.p.p.controller.PolicyController - Auth Successful
+2021-08-18_15-22-29 [http-nio-8300-exec-6] INFO  c.c.p.p.controller.PolicyController - Consumer found
+2021-08-18_15-22-29 [http-nio-8300-exec-6] INFO  c.c.p.p.service.PolicyServiceImpl - Start viewPolicyService
+2021-08-18_15-22-29 [http-nio-8300-exec-6] INFO  c.c.p.p.service.PolicyServiceImpl - End viewPolicyService
+2021-08-18_15-22-29 [http-nio-8300-exec-6] INFO  c.c.p.p.controller.PolicyController - End viewPolicy

@@ -1,0 +1,4 @@
+2021-08-11_12-27-27 [http-nio-8300-exec-5] ERROR c.c.p.p.e.GlobalExceptionHandler - [500] during [POST] to [http://localhost:8400/auth/authorize] [AuthorisingClient#authorizeTheRequest(String)]: [{"timestamp":"2021-08-11T07:50:03.889+00:00","status":500,"error":"Internal Server Error","trace":"io.jsonwebtoken.SignatureException: JWT signature does not match locally computed signature. JWT vali... (6011 bytes)]
+2021-08-11_12-27-27 [http-nio-8300-exec-8] ERROR c.c.p.p.e.GlobalExceptionHandler - Connection refused: no further information executing GET http://localhost:8100/quotes-api/getQuotesForPolicy/0/1/Factory%20Equipment?businessValue=0&propertyValue=1&propertyType=Factory%20Equipment
+2021-08-11_12-27-27 [http-nio-8300-exec-1] ERROR c.c.p.p.e.GlobalExceptionHandler - Not allowed
+2021-08-11_12-27-27 [http-nio-8300-exec-4] ERROR c.c.p.p.e.GlobalExceptionHandler - Not allowed

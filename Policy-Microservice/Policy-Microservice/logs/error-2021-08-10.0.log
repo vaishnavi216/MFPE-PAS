@@ -1,0 +1,11 @@
+2021-08-10_13-58-45 [http-nio-8300-exec-3] ERROR c.c.p.p.e.GlobalExceptionHandler - Not allowed
+2021-08-10_17-36-05 [http-nio-8300-exec-1] ERROR c.c.p.p.e.GlobalExceptionHandler - [404] during [GET] to [http://localhost:8200/consumer-api/viewConsumerBusinessByPolicy/1001?consumerid=1001] [ConsumerClient#viewConsumerBusinessbypolicy(Long,String)]: [{"timeStamp":"10-08-2021 05:44:04","status":"NOT_FOUND","message":"Consumer not found"}]
+2021-08-10_17-36-05 [http-nio-8300-exec-7] ERROR c.c.p.p.e.GlobalExceptionHandler - No value present
+2021-08-10_17-36-05 [http-nio-8300-exec-9] ERROR c.c.p.p.e.GlobalExceptionHandler - No value present
+2021-08-10_17-36-05 [http-nio-8300-exec-10] ERROR c.c.p.p.e.GlobalExceptionHandler - No value present
+2021-08-10_17-36-05 [http-nio-8300-exec-2] ERROR c.c.p.p.e.GlobalExceptionHandler - No value present
+2021-08-10_17-36-05 [http-nio-8300-exec-3] ERROR c.c.p.p.e.GlobalExceptionHandler - No value present
+2021-08-10_17-36-05 [http-nio-8300-exec-6] ERROR c.c.p.p.e.GlobalExceptionHandler - Not allowed
+2021-08-10_17-36-05 [http-nio-8300-exec-9] ERROR c.c.p.p.e.GlobalExceptionHandler - No value present
+2021-08-10_23-13-13 [http-nio-8300-exec-4] ERROR c.c.p.p.e.GlobalExceptionHandler - Connection refused: no further information executing POST http://localhost:8400/auth/authorize
+2021-08-10_23-13-13 [http-nio-8300-exec-6] ERROR c.c.p.p.e.GlobalExceptionHandler - Connection refused: no further information executing POST http://localhost:8400/auth/authorize
